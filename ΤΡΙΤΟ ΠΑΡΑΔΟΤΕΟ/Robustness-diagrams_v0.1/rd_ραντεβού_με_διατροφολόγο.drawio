@@ -1,0 +1,220 @@
+<mxfile host="Electron" modified="2023-04-18T16:19:11.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="uwI0zNKyxSGzQuIjg80z" version="21.1.2" type="device">
+  <diagram name="Σελίδα-1" id="h-o1yX0LM2CVH-15DDE9">
+    <mxGraphModel dx="3497" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8t45LIVKKecfM5tV3rzv-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-1" target="8t45LIVKKecfM5tV3rzv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-20" value="Επιλογή Ραντεβού &lt;br&gt;με διατροφολόγο" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-11">
+          <mxGeometry x="0.1689" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-1" target="8t45LIVKKecfM5tV3rzv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-19" value="Επιλογή διατροφολόγου" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-18">
+          <mxGeometry x="-0.1835" relative="1" as="geometry">
+            <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-58" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-1" target="8t45LIVKKecfM5tV3rzv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-60" value="Επιλογή ημέρας" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-58">
+          <mxGeometry x="-0.3122" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-59" value="Επιλογή ώρας" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-1" target="8t45LIVKKecfM5tV3rzv-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-62" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-1" target="8t45LIVKKecfM5tV3rzv-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-63" value="Επιβεβαιώνει" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-62">
+          <mxGeometry x="-0.2018" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-1" value="Χρήστης" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-10" target="8t45LIVKKecfM5tV3rzv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-10" value="Σελίδα Ραντεβού με διατροφολόγο" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-80" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-16" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-12" target="8t45LIVKKecfM5tV3rzv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-12" value="Εμφάνισε" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-80" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-17" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-14" target="8t45LIVKKecfM5tV3rzv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-14" value="Λίστα διατροφολόγων" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="-200" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-15" target="8t45LIVKKecfM5tV3rzv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-15" value="Σελίδα λίστας με διατροφολόγους" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-24" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-21" target="8t45LIVKKecfM5tV3rzv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-25" value="Επιλογή Αξιολόγηση" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-24">
+          <mxGeometry x="-0.316" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-28" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-21" target="8t45LIVKKecfM5tV3rzv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-32" value="Επιλογή Ραντεβού" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-28">
+          <mxGeometry x="-0.1334" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-21" value="Επιλογή λειτουργίας" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-23" value="Ανακατεύθυνση&lt;br style=&quot;font-size: 10px;&quot;&gt;στη περίπτωση χρήσης &quot;Αξιολόγηση διατροφολόγου&quot;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-110" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-36" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-26" target="8t45LIVKKecfM5tV3rzv-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-26" value="Σελίδα λεπτομερειών διατροφολόγου" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="190" width="105" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-30" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-27" target="8t45LIVKKecfM5tV3rzv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-33" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-27" target="8t45LIVKKecfM5tV3rzv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-27" value="Εμφάσνισε" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="70" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-29" value="Λίστα διατροφολόγων" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="65" width="85" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-34" target="8t45LIVKKecfM5tV3rzv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-34" value="Κλεισίμο ραντεβού" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="400" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-35" target="8t45LIVKKecfM5tV3rzv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-35" value="Σελίδα επιλογής ημέρας&amp;nbsp;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-39" target="8t45LIVKKecfM5tV3rzv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-39" value="Επιλογή ημέρας" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="400" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-44" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-40" target="8t45LIVKKecfM5tV3rzv-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-46" value="οχι" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-40" target="8t45LIVKKecfM5tV3rzv-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-53" value="ναι" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-40" target="8t45LIVKKecfM5tV3rzv-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-40" value="Υπάρχει διαθέσιμο ραντεβού για την ημέρα;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-43" value="Πρόγραμμα διατροφολόγου" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-49" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-45" target="8t45LIVKKecfM5tV3rzv-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-45" value="&lt;i&gt;&amp;nbsp;Σελίδα σφάλματος - μη διαθέσιμη ημέρα&lt;/i&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-50" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-47" target="8t45LIVKKecfM5tV3rzv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-47" value="Εμφάνισε" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-51" target="8t45LIVKKecfM5tV3rzv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-51" value="Σελίδα επιλογής διαθέσιμης ώρας" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="400" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-55" target="8t45LIVKKecfM5tV3rzv-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-55" value="Επιλογή ώρας" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-66" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-61" target="8t45LIVKKecfM5tV3rzv-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-61" value="Σελίδα επιπβεβαίωσης ραντεβού" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71.25" y="400" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-67" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-65" target="8t45LIVKKecfM5tV3rzv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-68" value="οχι" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8t45LIVKKecfM5tV3rzv-67">
+          <mxGeometry x="-0.7044" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-70" value="ναι" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-65" target="8t45LIVKKecfM5tV3rzv-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-65" value="Επιβεβαίωση;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="240" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-69" target="8t45LIVKKecfM5tV3rzv-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-69" target="8t45LIVKKecfM5tV3rzv-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-69" value="Προσθήκη ραντεβού" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="500" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-71" value="Λίστα &quot;Τα ραντεβού μου&quot;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81.25" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-73" target="8t45LIVKKecfM5tV3rzv-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-73" value="Σελίδα επιτυχίας" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="620" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8t45LIVKKecfM5tV3rzv-75" target="8t45LIVKKecfM5tV3rzv-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-75" value="Εμφάνισε" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="620" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8t45LIVKKecfM5tV3rzv-77" value="Σελίδα Τα ραντεβού μου" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="620" width="100" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
