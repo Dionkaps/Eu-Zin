@@ -1,11 +1,11 @@
 {
   "type": "selection",
-  "guid": "fe9ce3b1",
+  "guid": "7ea7b4b1",
   "source": "af488a7e9",
   "data": {
     "nodes": [
       {
-        "id": "f543bf0b",
+        "id": "67fd40fb",
         "x": 341,
         "y": 193,
         "width": 24,
@@ -45,7 +45,7 @@
         "deps": {}
       },
       {
-        "id": "b288a9ef",
+        "id": "e0ab823a",
         "x": 240,
         "y": 0,
         "width": 1126,
@@ -102,7 +102,7 @@
         "deps": {}
       },
       {
-        "id": "aa236610",
+        "id": "156c0a3a",
         "x": 303,
         "y": 49,
         "width": 117,
@@ -145,7 +145,7 @@
         "deps": {}
       },
       {
-        "id": "ccb1bf31",
+        "id": "9fb6b924",
         "x": 1175,
         "y": 56,
         "width": 111,
@@ -189,7 +189,7 @@
         "deps": {}
       },
       {
-        "id": "fa3a7d44",
+        "id": "bfaaa1bd",
         "x": 1292,
         "y": 61,
         "width": 20,
@@ -229,7 +229,7 @@
         "deps": {}
       },
       {
-        "id": "8ffe0d9b",
+        "id": "98377023",
         "x": 825,
         "y": 46,
         "width": 200,
@@ -286,7 +286,7 @@
         "deps": {}
       },
       {
-        "id": "d07e00ba",
+        "id": "16d5930a",
         "x": 843,
         "y": 59,
         "width": 24,
@@ -326,7 +326,7 @@
         "deps": {}
       },
       {
-        "id": "d40af174",
+        "id": "5452577f",
         "x": 1049,
         "y": 46,
         "width": 48,
@@ -383,7 +383,7 @@
         "deps": {}
       },
       {
-        "id": "616531a5",
+        "id": "09cb76d8",
         "x": 1061,
         "y": 58,
         "width": 24,
@@ -423,7 +423,7 @@
         "deps": {}
       },
       {
-        "id": "3a439f26",
+        "id": "694c0ca0",
         "x": 1075,
         "y": 43,
         "width": 24,
@@ -480,7 +480,7 @@
         "deps": {}
       },
       {
-        "id": "bf97e226",
+        "id": "10179e38",
         "x": 1142,
         "y": 55,
         "width": 30,
@@ -520,7 +520,7 @@
         "deps": {}
       },
       {
-        "id": "69aa985b",
+        "id": "4ed10a4d",
         "x": 310,
         "y": 170,
         "width": 1010,
@@ -577,7 +577,7 @@
         "deps": {}
       },
       {
-        "id": "c954910c",
+        "id": "627c76e9",
         "x": 1129,
         "y": 198,
         "width": 161,
@@ -637,7 +637,7 @@
         "deps": {}
       },
       {
-        "id": "d072b9f6",
+        "id": "f7c3f10c",
         "x": 1258,
         "y": 207,
         "width": 18,
@@ -677,7 +677,7 @@
         "deps": {}
       },
       {
-        "id": "7b94cbb9",
+        "id": "341e8102",
         "x": 522,
         "y": 258,
         "width": 607,
@@ -931,7 +931,7 @@
         "deps": {}
       },
       {
-        "id": "446c2a52",
+        "id": "6658f2b5",
         "x": 351,
         "y": 203,
         "width": 24,
@@ -971,7 +971,7 @@
         "deps": {}
       },
       {
-        "id": "50c831ef",
+        "id": "bc5b70b6",
         "x": 678,
         "y": 621,
         "width": 274,
@@ -1025,7 +1025,7 @@
         "deps": {}
       },
       {
-        "id": "91e05c5b",
+        "id": "a3a5786b",
         "x": 996,
         "y": 326,
         "width": 24,
@@ -1065,7 +1065,7 @@
         "deps": {}
       },
       {
-        "id": "9986c68a",
+        "id": "019e5dce",
         "x": 996,
         "y": 540,
         "width": 24,
@@ -1105,7 +1105,7 @@
         "deps": {}
       },
       {
-        "id": "ce3a0571",
+        "id": "002851e9",
         "x": 996,
         "y": 488,
         "width": 24,
@@ -1145,7 +1145,7 @@
         "deps": {}
       },
       {
-        "id": "883343cb",
+        "id": "5b933fb7",
         "x": 996,
         "y": 434,
         "width": 24,
@@ -1185,7 +1185,7 @@
         "deps": {}
       },
       {
-        "id": "34424661",
+        "id": "a02cee9e",
         "x": 996,
         "y": 379,
         "width": 24,
@@ -1225,13 +1225,356 @@
         "deps": {}
       },
       {
-        "id": "12c35c80",
-        "x": 0,
+        "id": "f0951276",
+        "x": 240,
+        "y": 140,
+        "width": 1126,
+        "height": 760,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 240 140)",
+        "inspectables": {
+          "background_color": "rgb(140, 140, 141)",
+          "stroke_color": "rgb(0,0,0)",
+          "connector_stroke_width": null,
+          "stroke_width": 0,
+          "stroke_style": "solid",
+          "corner_radius_tl": 0,
+          "corner_radius_tr": 0,
+          "corner_radius_br": 0,
+          "corner_radius_bl": 0,
+          "corner_radius_lock": true,
+          "corner_radius_scale": false,
+          "aspect_lock": false,
+          "path": "M0 0 L100 0 C100 0 100 0 100 0 L100 50 C100 50 100 50 100 50 L0 50 C0 50 0 50 0 50 L0 0 C0 0 0 0 0 0 Z",
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "width_policy": "fixed",
+          "height_policy": "fixed",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 14,
+          "text_align": "center",
+          "line_height": 1.3,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": 0,
+          "font": "Helvetica",
+          "font_weight": 400,
+          "opacity": 39,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5,
+          "vertical_align": "middle",
+          "padding_left": 8,
+          "padding_right": 8,
+          "padding_top": 8,
+          "padding_bottom": 8,
+          "padding_lock": false
+        },
+        "text": "",
+        "name": "rect",
+        "deps": {}
+      },
+      {
+        "id": "0ca35965",
+        "x": 499,
+        "y": 308,
+        "width": 609,
+        "height": 424,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 499 308)",
+        "inspectables": {
+          "background_color": "rgb(255, 255, 255)",
+          "stroke_color": "rgb(0,0,0)",
+          "connector_stroke_width": null,
+          "stroke_width": 0,
+          "stroke_style": "solid",
+          "corner_radius_tl": 34,
+          "corner_radius_tr": 34,
+          "corner_radius_br": 34,
+          "corner_radius_bl": 34,
+          "corner_radius_lock": true,
+          "corner_radius_scale": false,
+          "aspect_lock": false,
+          "path": "M0 0 L100 0 C100 0 100 0 100 0 L100 50 C100 50 100 50 100 50 L0 50 C0 50 0 50 0 50 L0 0 C0 0 0 0 0 0 Z",
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "width_policy": "fixed",
+          "height_policy": "fixed",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 14,
+          "text_align": "center",
+          "line_height": 1.3,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": 0,
+          "font": "Helvetica",
+          "font_weight": 400,
+          "opacity": 100,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5,
+          "vertical_align": "middle",
+          "padding_left": 8,
+          "padding_right": 8,
+          "padding_top": 8,
+          "padding_bottom": 8,
+          "padding_lock": false
+        },
+        "text": "",
+        "name": "rect",
+        "deps": {}
+      },
+      {
+        "id": "8279c46a",
+        "x": 745,
+        "y": 319,
+        "width": 117,
+        "height": 42,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 745 319)",
+        "inspectables": {
+          "width_policy": "auto",
+          "height_policy": "auto",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 30,
+          "text_align": "left",
+          "bold": null,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": -0.2,
+          "opacity": 100,
+          "font": "Source Sans 3",
+          "font_weight": 600,
+          "aspect_lock": false,
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "vertical_align": "middle",
+          "padding_left": 0,
+          "padding_right": 0,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5
+        },
+        "text": "<p dir=\"auto\">Your Cart</p>",
+        "name": "heading",
+        "deps": {}
+      },
+      {
+        "id": "c8bd89c8",
+        "x": 690,
+        "y": 379,
+        "width": 204,
+        "height": 36,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 690 379)",
+        "inspectables": {
+          "width_policy": "auto",
+          "height_policy": "auto",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 26,
+          "text_align": "left",
+          "bold": null,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": -0.2,
+          "opacity": 100,
+          "font": "Source Sans 3",
+          "font_weight": 600,
+          "aspect_lock": false,
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "vertical_align": "middle",
+          "padding_left": 0,
+          "padding_right": 0,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5
+        },
+        "text": "<p dir=\"auto\">Shop: Muscle Mass</p>",
+        "name": "heading",
+        "deps": {}
+      },
+      {
+        "id": "0ec622c2",
+        "x": 670,
+        "y": 423,
+        "width": 243,
+        "height": 36,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 670 423)",
+        "inspectables": {
+          "width_policy": "auto",
+          "height_policy": "auto",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 26,
+          "text_align": "left",
+          "bold": null,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": -0.2,
+          "opacity": 100,
+          "font": "Source Sans 3",
+          "font_weight": 600,
+          "aspect_lock": false,
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "vertical_align": "middle",
+          "padding_left": 0,
+          "padding_right": 0,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5
+        },
+        "text": "<p dir=\"auto\">Amount of products: 5</p>",
+        "name": "heading",
+        "deps": {}
+      },
+      {
+        "id": "1f777c45",
+        "x": 725,
+        "y": 577,
+        "width": 135,
+        "height": 36,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 725 577)",
+        "inspectables": {
+          "width_policy": "auto",
+          "height_policy": "auto",
+          "color": "rgb(32, 33, 35)",
+          "font_size": 26,
+          "text_align": "left",
+          "bold": null,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": -0.2,
+          "opacity": 100,
+          "font": "Source Sans 3",
+          "font_weight": "bold",
+          "aspect_lock": false,
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "vertical_align": "middle",
+          "padding_left": 0,
+          "padding_right": 0,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5
+        },
+        "text": "<p dir=\"auto\"><span style=\"font-weight: bold;\">Total: 52.4 €</span></p>",
+        "name": "heading",
+        "deps": {}
+      },
+      {
+        "id": "d5061ace",
+        "x": 705,
+        "y": 645,
+        "width": 173,
+        "height": 59,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 705 645)",
+        "inspectables": {
+          "background_color": "rgb(67, 133, 226)",
+          "stroke_color": "rgb(67, 133, 226)",
+          "connector_stroke_width": null,
+          "stroke_width": 2,
+          "stroke_style": "solid",
+          "corner_radius_tl": 8,
+          "corner_radius_tr": 8,
+          "corner_radius_br": 8,
+          "corner_radius_bl": 8,
+          "corner_radius_lock": true,
+          "corner_radius_scale": false,
+          "aspect_lock": false,
+          "path": "M0 0 L100 0 C100 0 100 0 100 0 L100 50 C100 50 100 50 100 50 L0 50 C0 50 0 50 0 50 L0 0 C0 0 0 0 0 0 Z",
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "width_policy": "fixed",
+          "height_policy": "fixed",
+          "color": "rgb(53, 53, 53)",
+          "font_size": 16,
+          "text_align": "left",
+          "line_height": 1.3,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": 0,
+          "font": "Source Sans 3",
+          "font_weight": "bold",
+          "opacity": 100,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5,
+          "vertical_align": "middle",
+          "padding_left": 44,
+          "padding_right": 16,
+          "padding_top": 8,
+          "padding_bottom": 8,
+          "padding_lock": false
+        },
+        "text": "<p dir=\"auto\"><span style=\"font-weight: bold; color: var(--mq-txt-color, rgb(53, 53, 53));\">      Create</span></p><p dir=\"auto\"><span style=\"font-weight: bold; color: var(--mq-txt-color, rgb(53, 53, 53));\">Appointment</span></p>",
+        "name": "rect",
+        "deps": {}
+      },
+      {
+        "id": "175dbca7",
+        "x": 1,
         "y": 0,
         "width": 240,
         "height": 900,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 0 0)",
+        "transform": "matrix(1 0 0 1 1 0)",
         "inspectables": {
           "background_color": "rgb(32, 33, 35)",
           "stroke_color": "rgb(0,0,0)",
@@ -1282,13 +1625,13 @@
         "deps": {}
       },
       {
-        "id": "e76bca80",
+        "id": "c0a5dfa4",
         "x": 0,
-        "y": 309,
+        "y": 398,
         "width": 5,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 0 309)",
+        "transform": "matrix(1 0 0 1 0 398)",
         "inspectables": {
           "background_color": "rgb(255, 255, 255)",
           "stroke_color": "rgb(0,0,0)",
@@ -1339,13 +1682,13 @@
         "deps": {}
       },
       {
-        "id": "00974c24",
-        "x": 35,
+        "id": "ee2d8414",
+        "x": 36,
         "y": 142,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 35 142)",
+        "transform": "matrix(1 0 0 1 36 142)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1379,13 +1722,13 @@
         "deps": {}
       },
       {
-        "id": "5affc25e",
-        "x": 199,
+        "id": "6adc0569",
+        "x": 200,
         "y": 255,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 199 255)",
+        "transform": "matrix(1 0 0 1 200 255)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1419,13 +1762,13 @@
         "deps": {}
       },
       {
-        "id": "2f6b3d83",
-        "x": 70,
+        "id": "049ec006",
+        "x": 71,
         "y": 142,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 70 142)",
+        "transform": "matrix(1 0 0 1 71 142)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1463,13 +1806,13 @@
         "deps": {}
       },
       {
-        "id": "f46ab0b8",
-        "x": 18,
+        "id": "a10a2c3e",
+        "x": 19,
         "y": 183,
         "width": 205,
         "height": 56,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 18 183)",
+        "transform": "matrix(1 0 0 1 19 183)",
         "inspectables": {
           "background_color": "rgba(0, 0, 0, 0)",
           "stroke_color": "rgb(0,0,0)",
@@ -1520,13 +1863,13 @@
         "deps": {}
       },
       {
-        "id": "72e49af8",
-        "x": 71,
+        "id": "4242b8a7",
+        "x": 72,
         "y": 196,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 71 196)",
+        "transform": "matrix(1 0 0 1 72 196)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1564,13 +1907,13 @@
         "deps": {}
       },
       {
-        "id": "4ef84c37",
-        "x": 34,
+        "id": "c9721bd5",
+        "x": 35,
         "y": 198,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 34 198)",
+        "transform": "matrix(1 0 0 1 35 198)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1604,13 +1947,13 @@
         "deps": {}
       },
       {
-        "id": "6c1477a8",
-        "x": 25,
+        "id": "808fe153",
+        "x": 26,
         "y": 540,
         "width": 186,
         "height": 1,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 25 540)",
+        "transform": "matrix(1 0 0 1 26 540)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1642,13 +1985,13 @@
         "deps": {}
       },
       {
-        "id": "285a9983",
-        "x": 18,
+        "id": "633c7c29",
+        "x": 19,
         "y": 552,
         "width": 205,
         "height": 56,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 18 552)",
+        "transform": "matrix(1 0 0 1 19 552)",
         "inspectables": {
           "background_color": "rgba(0, 0, 0, 0)",
           "stroke_color": "rgb(0,0,0)",
@@ -1699,13 +2042,13 @@
         "deps": {}
       },
       {
-        "id": "d97bd0e4",
-        "x": 71,
+        "id": "5bd0cd9b",
+        "x": 72,
         "y": 565,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 71 565)",
+        "transform": "matrix(1 0 0 1 72 565)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1743,13 +2086,13 @@
         "deps": {}
       },
       {
-        "id": "2ce93ee0",
-        "x": 34,
+        "id": "80a4e881",
+        "x": 35,
         "y": 567,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 34 567)",
+        "transform": "matrix(1 0 0 1 35 567)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1783,13 +2126,13 @@
         "deps": {}
       },
       {
-        "id": "1c503549",
-        "x": 19,
-        "y": 301,
+        "id": "0c394aa9",
+        "x": 20,
+        "y": 392,
         "width": 205,
         "height": 42,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 19 301)",
+        "transform": "matrix(1 0 0 1 20 392)",
         "inspectables": {
           "background_color": "rgb(45, 45, 46)",
           "stroke_color": "rgb(0,0,0)",
@@ -1840,17 +2183,17 @@
         "deps": {}
       },
       {
-        "id": "9112b0b7",
-        "x": 80,
+        "id": "87e972bb",
+        "x": 81,
         "y": 307,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 80 307.424)",
+        "transform": "matrix(1 0 0 1 81 307.424)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
-          "color": "rgb(255, 255, 255)",
+          "color": "rgb(140, 140, 141)",
           "font_size": 16,
           "text_align": "left",
           "line_height": 1.3,
@@ -1879,18 +2222,18 @@
           "fe_blur_enabled": false,
           "fe_blur_size": 5
         },
-        "text": "<p dir=\"auto\"><span style=\"color: var(--mq-txt-color, rgb(255, 255, 255));\">Nutritionists</span></p>",
+        "text": "<p dir=\"auto\"><span style=\"color: var(--mq-txt-color, rgb(140, 140, 141));\">Nutritionists</span></p>",
         "name": "text",
         "deps": {}
       },
       {
-        "id": "59f0428b",
-        "x": 70,
+        "id": "2d12134d",
+        "x": 71,
         "y": 254,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 70 254)",
+        "transform": "matrix(1 0 0 1 71 254)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1928,13 +2271,13 @@
         "deps": {}
       },
       {
-        "id": "6846cd8e",
-        "x": 82,
+        "id": "000b82d4",
+        "x": 83,
         "y": 351,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 82 351.424)",
+        "transform": "matrix(1 0 0 1 83 351.424)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -1972,17 +2315,17 @@
         "deps": {}
       },
       {
-        "id": "2e661a04",
-        "x": 82,
+        "id": "47b99348",
+        "x": 83,
         "y": 400,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 82 400)",
+        "transform": "matrix(1 0 0 1 83 400)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
-          "color": "rgb(170, 170, 170)",
+          "color": "rgb(255, 255, 255)",
           "font_size": 16,
           "text_align": "left",
           "line_height": 1.3,
@@ -2011,18 +2354,18 @@
           "fe_blur_enabled": false,
           "fe_blur_size": 5
         },
-        "text": "<p dir=\"auto\"><span style=\"color: var(--mq-txt-color, rgb(170, 170, 170)); font-weight: 500; font-family: &quot;Source Sans 3&quot;, serif;\" data-font=\"font-source-sans-3\">Equipment</span></p>",
+        "text": "<p dir=\"auto\"><span data-font=\"font-source-sans-3\" style=\"font-weight: 500; color: var(--mq-txt-color, rgb(255, 255, 255)); font-family: &quot;Source Sans 3&quot;, serif;\">Equipment</span></p>",
         "name": "text",
         "deps": {}
       },
       {
-        "id": "f17fe28e",
-        "x": 18,
+        "id": "4ba9b2de",
+        "x": 19,
         "y": 824,
         "width": 205,
         "height": 56,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 18 824)",
+        "transform": "matrix(1 0 0 1 19 824)",
         "inspectables": {
           "background_color": "rgba(0, 0, 0, 0)",
           "stroke_color": "rgb(0,0,0)",
@@ -2073,13 +2416,13 @@
         "deps": {}
       },
       {
-        "id": "fd37f239",
-        "x": 71,
+        "id": "c9106e8d",
+        "x": 72,
         "y": 837,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 71 837.424)",
+        "transform": "matrix(1 0 0 1 72 837.424)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2117,13 +2460,13 @@
         "deps": {}
       },
       {
-        "id": "b3e48602",
-        "x": 34,
+        "id": "83426d72",
+        "x": 35,
         "y": 839,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 34 839)",
+        "transform": "matrix(1 0 0 1 35 839)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2157,13 +2500,13 @@
         "deps": {}
       },
       {
-        "id": "7a5c2c89",
-        "x": 18,
+        "id": "8b3f16d0",
+        "x": 19,
         "y": 781,
         "width": 205,
         "height": 42,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 18 781)",
+        "transform": "matrix(1 0 0 1 19 781)",
         "inspectables": {
           "background_color": "rgba(0, 0, 0, 0)",
           "stroke_color": "rgb(0,0,0)",
@@ -2214,13 +2557,13 @@
         "deps": {}
       },
       {
-        "id": "9fa11760",
-        "x": 37,
+        "id": "d42cdace",
+        "x": 38,
         "y": 791,
         "width": 111,
         "height": 21,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 37 791.068)",
+        "transform": "matrix(1 0 0 1 38 791.068)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2258,13 +2601,13 @@
         "deps": {}
       },
       {
-        "id": "a7903ca8",
-        "x": 18,
+        "id": "7ccbd13b",
+        "x": 19,
         "y": 740,
         "width": 205,
         "height": 42,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 18 740)",
+        "transform": "matrix(1 0 0 1 19 740)",
         "inspectables": {
           "background_color": "rgba(0, 0, 0, 0)",
           "stroke_color": "rgb(0,0,0)",
@@ -2315,13 +2658,13 @@
         "deps": {}
       },
       {
-        "id": "3261c966",
-        "x": 37,
+        "id": "1f986d1b",
+        "x": 38,
         "y": 750,
         "width": 111,
         "height": 21,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 37 750.068)",
+        "transform": "matrix(1 0 0 1 38 750.068)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2359,13 +2702,13 @@
         "deps": {}
       },
       {
-        "id": "e1b2ef8c",
-        "x": 33,
+        "id": "6505d1a2",
+        "x": 34,
         "y": 56,
         "width": 28,
         "height": 28.000000000000004,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 33 56)",
+        "transform": "matrix(1 0 0 1 34 56)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2399,13 +2742,13 @@
         "deps": {}
       },
       {
-        "id": "c8faa12d",
-        "x": 69,
+        "id": "05d26350",
+        "x": 70,
         "y": 53,
         "width": 58,
         "height": 34,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 69 52.983)",
+        "transform": "matrix(1 0 0 1 70 52.983)",
         "inspectables": {
           "width_policy": "auto",
           "height_policy": "fixed",
@@ -2444,13 +2787,13 @@
         "deps": {}
       },
       {
-        "id": "a84415ee",
-        "x": 84,
+        "id": "70ac5068",
+        "x": 85,
         "y": 442,
         "width": 111,
         "height": 28,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 84 442.424)",
+        "transform": "matrix(1 0 0 1 85 442.424)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2488,17 +2831,17 @@
         "deps": {}
       },
       {
-        "id": "540ad771",
-        "x": 47,
+        "id": "8b71409f",
+        "x": 48,
         "y": 312,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 47 312)",
+        "transform": "matrix(1 0 0 1 48 312)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
-          "background_color": "rgb(255, 255, 255)",
+          "background_color": "rgb(140, 140, 141)",
           "stroke_color": "rgb(0,0,0)",
           "stroke_width": 0,
           "stroke_style": "solid",
@@ -2528,13 +2871,13 @@
         "deps": {}
       },
       {
-        "id": "e667a3aa",
-        "x": 49,
+        "id": "d62b10a8",
+        "x": 50,
         "y": 445,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 49 445)",
+        "transform": "matrix(1 0 0 1 50 445)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2568,17 +2911,17 @@
         "deps": {}
       },
       {
-        "id": "2d7b53db",
-        "x": 49,
+        "id": "6c8974dd",
+        "x": 50,
         "y": 400,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 49 400)",
+        "transform": "matrix(1 0 0 1 50 400)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
-          "background_color": "rgb(170, 170, 170)",
+          "background_color": "rgb(255, 255, 255)",
           "stroke_color": "rgb(0,0,0)",
           "stroke_width": 0,
           "stroke_style": "solid",
@@ -2608,13 +2951,13 @@
         "deps": {}
       },
       {
-        "id": "eb9e5a7f",
-        "x": 47,
+        "id": "af201fc9",
+        "x": 48,
         "y": 353,
         "width": 26,
         "height": 26,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 47 353)",
+        "transform": "matrix(1 0 0 1 48 353)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2648,13 +2991,13 @@
         "deps": {}
       },
       {
-        "id": "0f7344d3",
-        "x": 35,
+        "id": "8ee1a82c",
+        "x": 36,
         "y": 255,
         "width": 24,
         "height": 24,
         "rotation": 0,
-        "transform": "matrix(1 0 0 1 35 255)",
+        "transform": "matrix(1 0 0 1 36 255)",
         "inspectables": {
           "width_policy": "fixed",
           "height_policy": "fixed",
@@ -2686,39 +3029,85 @@
         },
         "name": "plain-svg",
         "deps": {}
+      },
+      {
+        "id": "d607e340",
+        "x": 705,
+        "y": 505,
+        "width": 180,
+        "height": 29,
+        "rotation": 0,
+        "transform": "matrix(1 0 0 1 705 505)",
+        "inspectables": {
+          "width_policy": "fixed",
+          "height_policy": "fixed",
+          "color": "rgb(192,192,192)",
+          "font_size": "15",
+          "text_align": "left",
+          "line_height": 1.3,
+          "background_color": "rgb(255,255,255)",
+          "stroke_color": "rgb(35,35,35)",
+          "stroke_width": 1,
+          "stroke_style": "solid",
+          "opacity": 100,
+          "corner_radius_tl": 3,
+          "corner_radius_tr": 3,
+          "corner_radius_br": 3,
+          "corner_radius_bl": 3,
+          "corner_radius_lock": true,
+          "corner_radius_scale": false,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "small_caps": false,
+          "uppercase": false,
+          "letter_spacing": 0,
+          "font": "Source Sans 3",
+          "font_weight": 600,
+          "aspect_lock": false,
+          "fe_dropshadow_enabled": false,
+          "fe_dropshadow_opacity": 75,
+          "fe_dropshadow_angle": 90,
+          "fe_dropshadow_distance": 5,
+          "fe_dropshadow_size": 5,
+          "fe_dropshadow_color": "rgb(0, 0, 0)",
+          "vertical_align": "top",
+          "padding_left": 8,
+          "padding_right": 8,
+          "padding_top": 4,
+          "padding_bottom": 4,
+          "padding_lock": false,
+          "fe_blur_enabled": false,
+          "fe_blur_size": 5
+        },
+        "text": "<p dir=\"auto\">Enter coupon here...</p>",
+        "name": "textarea2",
+        "deps": {}
       }
     ],
     "hierarchy": {
-      "34424661": {
-        "id": "34424661",
+      "98377023": {
+        "id": "98377023",
+        "type": "item",
+        "parent": "_GROUP_8dff94e7",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Rectangle 8"
+      },
+      "5b933fb7": {
+        "id": "5b933fb7",
         "type": "item",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
-        "instance_name": "Star Half Icon 2"
+        "instance_name": "Star Half Icon 1"
       },
-      "d40af174": {
-        "id": "d40af174",
-        "type": "item",
-        "locked": false,
-        "link": null,
-        "aspect_lock": false,
-        "visible": true,
-        "instance_name": "Rectangle 20"
-      },
-      "9112b0b7": {
-        "id": "9112b0b7",
-        "type": "item",
-        "parent": "_GROUP_4131360d",
-        "locked": false,
-        "link": null,
-        "aspect_lock": false,
-        "visible": true,
-        "instance_name": "Nutritionists 1"
-      },
-      "_GROUP_e287ebea": {
-        "id": "_GROUP_e287ebea",
+      "_GROUP_64fc9630": {
+        "id": "_GROUP_64fc9630",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2728,8 +3117,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_0b24ee26": {
-        "id": "_GROUP_0b24ee26",
+      "_GROUP_8dff94e7": {
+        "id": "_GROUP_8dff94e7",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2739,8 +3128,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_323fe896": {
-        "id": "_GROUP_323fe896",
+      "_GROUP_2918e146": {
+        "id": "_GROUP_2918e146",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2750,8 +3139,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_c7f7e493": {
-        "id": "_GROUP_c7f7e493",
+      "_GROUP_68ac39de": {
+        "id": "_GROUP_68ac39de",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2761,8 +3150,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_80fffe6f": {
-        "id": "_GROUP_80fffe6f",
+      "_GROUP_adf6378a": {
+        "id": "_GROUP_adf6378a",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2772,8 +3161,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_783049f9": {
-        "id": "_GROUP_783049f9",
+      "_GROUP_1b948c6b": {
+        "id": "_GROUP_1b948c6b",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2783,8 +3172,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_0c4ecfda": {
-        "id": "_GROUP_0c4ecfda",
+      "_GROUP_d9404982": {
+        "id": "_GROUP_d9404982",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2794,8 +3183,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_4131360d": {
-        "id": "_GROUP_4131360d",
+      "_GROUP_75382ebb": {
+        "id": "_GROUP_75382ebb",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2805,8 +3194,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_3c06889f": {
-        "id": "_GROUP_3c06889f",
+      "_GROUP_11d53b59": {
+        "id": "_GROUP_11d53b59",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2816,8 +3205,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_a6b29ec9": {
-        "id": "_GROUP_a6b29ec9",
+      "_GROUP_9fd039fb": {
+        "id": "_GROUP_9fd039fb",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2827,8 +3216,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_e9556d9c": {
-        "id": "_GROUP_e9556d9c",
+      "_GROUP_0e1fd087": {
+        "id": "_GROUP_0e1fd087",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2838,8 +3227,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_ddc65a70": {
-        "id": "_GROUP_ddc65a70",
+      "_GROUP_67cfb7e5": {
+        "id": "_GROUP_67cfb7e5",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2849,8 +3238,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_35aafd39": {
-        "id": "_GROUP_35aafd39",
+      "_GROUP_18edc2dc": {
+        "id": "_GROUP_18edc2dc",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2860,8 +3249,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "_GROUP_fe72bf9c": {
-        "id": "_GROUP_fe72bf9c",
+      "_GROUP_629ed826": {
+        "id": "_GROUP_629ed826",
         "type": "group",
         "locked": false,
         "link": null,
@@ -2871,8 +3260,8 @@
         "expanded": false,
         "clickthrough": false
       },
-      "f543bf0b": {
-        "id": "f543bf0b",
+      "67fd40fb": {
+        "id": "67fd40fb",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2880,8 +3269,8 @@
         "visible": true,
         "instance_name": "Add Icon 1"
       },
-      "b288a9ef": {
-        "id": "b288a9ef",
+      "e0ab823a": {
+        "id": "e0ab823a",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2889,8 +3278,8 @@
         "visible": true,
         "instance_name": "Rectangle 25"
       },
-      "aa236610": {
-        "id": "aa236610",
+      "156c0a3a": {
+        "id": "156c0a3a",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2898,48 +3287,47 @@
         "visible": true,
         "instance_name": "Premium 2"
       },
-      "ccb1bf31": {
-        "id": "ccb1bf31",
+      "9fb6b924": {
+        "id": "9fb6b924",
         "type": "item",
-        "parent": "_GROUP_e287ebea",
+        "parent": "_GROUP_64fc9630",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "kapkap 1"
       },
-      "fa3a7d44": {
-        "id": "fa3a7d44",
+      "bfaaa1bd": {
+        "id": "bfaaa1bd",
         "type": "item",
-        "parent": "_GROUP_e287ebea",
+        "parent": "_GROUP_64fc9630",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Keyboard Arrow Down Icon 2"
       },
-      "8ffe0d9b": {
-        "id": "8ffe0d9b",
+      "16d5930a": {
+        "id": "16d5930a",
         "type": "item",
-        "parent": "_GROUP_0b24ee26",
-        "locked": false,
-        "link": null,
-        "aspect_lock": false,
-        "visible": true,
-        "instance_name": "Rectangle 8"
-      },
-      "d07e00ba": {
-        "id": "d07e00ba",
-        "type": "item",
-        "parent": "_GROUP_0b24ee26",
+        "parent": "_GROUP_8dff94e7",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Search Icon 1"
       },
-      "616531a5": {
-        "id": "616531a5",
+      "5452577f": {
+        "id": "5452577f",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Rectangle 20"
+      },
+      "09cb76d8": {
+        "id": "09cb76d8",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2947,8 +3335,8 @@
         "visible": true,
         "instance_name": "Notifications None Icon 1"
       },
-      "3a439f26": {
-        "id": "3a439f26",
+      "694c0ca0": {
+        "id": "694c0ca0",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2956,8 +3344,8 @@
         "visible": true,
         "instance_name": "Rectangle 21"
       },
-      "bf97e226": {
-        "id": "bf97e226",
+      "10179e38": {
+        "id": "10179e38",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2965,8 +3353,8 @@
         "visible": true,
         "instance_name": "Face Icon 1"
       },
-      "69aa985b": {
-        "id": "69aa985b",
+      "4ed10a4d": {
+        "id": "4ed10a4d",
         "type": "item",
         "locked": false,
         "link": null,
@@ -2974,28 +3362,28 @@
         "visible": true,
         "instance_name": "Rectangle 22"
       },
-      "c954910c": {
-        "id": "c954910c",
+      "627c76e9": {
+        "id": "627c76e9",
         "type": "item",
-        "parent": "_GROUP_323fe896",
+        "parent": "_GROUP_2918e146",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 28"
       },
-      "d072b9f6": {
-        "id": "d072b9f6",
+      "f7c3f10c": {
+        "id": "f7c3f10c",
         "type": "item",
-        "parent": "_GROUP_323fe896",
+        "parent": "_GROUP_2918e146",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Keyboard Arrow Down Icon 3"
       },
-      "7b94cbb9": {
-        "id": "7b94cbb9",
+      "341e8102": {
+        "id": "341e8102",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3003,8 +3391,8 @@
         "visible": true,
         "instance_name": "Table 1"
       },
-      "446c2a52": {
-        "id": "446c2a52",
+      "6658f2b5": {
+        "id": "6658f2b5",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3012,8 +3400,8 @@
         "visible": true,
         "instance_name": "Add Icon 2"
       },
-      "50c831ef": {
-        "id": "50c831ef",
+      "bc5b70b6": {
+        "id": "bc5b70b6",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3021,8 +3409,8 @@
         "visible": true,
         "instance_name": "Tabs 3"
       },
-      "91e05c5b": {
-        "id": "91e05c5b",
+      "a3a5786b": {
+        "id": "a3a5786b",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3030,8 +3418,8 @@
         "visible": true,
         "instance_name": "Star Icon 1"
       },
-      "9986c68a": {
-        "id": "9986c68a",
+      "019e5dce": {
+        "id": "019e5dce",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3039,8 +3427,8 @@
         "visible": true,
         "instance_name": "Star Icon 2"
       },
-      "ce3a0571": {
-        "id": "ce3a0571",
+      "002851e9": {
+        "id": "002851e9",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3048,17 +3436,80 @@
         "visible": true,
         "instance_name": "Star Border Icon 1"
       },
-      "883343cb": {
-        "id": "883343cb",
+      "a02cee9e": {
+        "id": "a02cee9e",
         "type": "item",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
-        "instance_name": "Star Half Icon 1"
+        "instance_name": "Star Half Icon 2"
       },
-      "12c35c80": {
-        "id": "12c35c80",
+      "f0951276": {
+        "id": "f0951276",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Rectangle 26"
+      },
+      "0ca35965": {
+        "id": "0ca35965",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Rectangle 27"
+      },
+      "8279c46a": {
+        "id": "8279c46a",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Your Cart"
+      },
+      "c8bd89c8": {
+        "id": "c8bd89c8",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Phone: 728936587"
+      },
+      "0ec622c2": {
+        "id": "0ec622c2",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Amount of products: 5"
+      },
+      "1f777c45": {
+        "id": "1f777c45",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Phone: 728936589"
+      },
+      "d5061ace": {
+        "id": "d5061ace",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Rectangle 44"
+      },
+      "175dbca7": {
+        "id": "175dbca7",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3066,78 +3517,78 @@
         "visible": true,
         "instance_name": "Rectangle 1"
       },
-      "e76bca80": {
-        "id": "e76bca80",
+      "c0a5dfa4": {
+        "id": "c0a5dfa4",
         "type": "item",
-        "parent": "_GROUP_c7f7e493",
+        "parent": "_GROUP_68ac39de",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 7"
       },
-      "00974c24": {
-        "id": "00974c24",
+      "ee2d8414": {
+        "id": "ee2d8414",
         "type": "item",
-        "parent": "_GROUP_c7f7e493",
+        "parent": "_GROUP_68ac39de",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Home Icon 1"
       },
-      "5affc25e": {
-        "id": "5affc25e",
+      "6adc0569": {
+        "id": "6adc0569",
         "type": "item",
-        "parent": "_GROUP_c7f7e493",
+        "parent": "_GROUP_68ac39de",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Keyboard Arrow Down Icon 1"
       },
-      "2f6b3d83": {
-        "id": "2f6b3d83",
+      "049ec006": {
+        "id": "049ec006",
         "type": "item",
-        "parent": "_GROUP_80fffe6f",
+        "parent": "_GROUP_adf6378a",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Home 1"
       },
-      "f46ab0b8": {
-        "id": "f46ab0b8",
+      "a10a2c3e": {
+        "id": "a10a2c3e",
         "type": "item",
-        "parent": "_GROUP_783049f9",
+        "parent": "_GROUP_1b948c6b",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 10"
       },
-      "72e49af8": {
-        "id": "72e49af8",
+      "4242b8a7": {
+        "id": "4242b8a7",
         "type": "item",
-        "parent": "_GROUP_783049f9",
+        "parent": "_GROUP_1b948c6b",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Fitness 1"
       },
-      "4ef84c37": {
-        "id": "4ef84c37",
+      "c9721bd5": {
+        "id": "c9721bd5",
         "type": "item",
-        "parent": "_GROUP_783049f9",
+        "parent": "_GROUP_1b948c6b",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Shopping Basket Icon 1"
       },
-      "6c1477a8": {
-        "id": "6c1477a8",
+      "808fe153": {
+        "id": "808fe153",
         "type": "item",
         "locked": false,
         "link": null,
@@ -3145,295 +3596,322 @@
         "visible": true,
         "instance_name": "Horizontal Line 1"
       },
-      "285a9983": {
-        "id": "285a9983",
+      "633c7c29": {
+        "id": "633c7c29",
         "type": "item",
-        "parent": "_GROUP_0c4ecfda",
+        "parent": "_GROUP_d9404982",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 13"
       },
-      "d97bd0e4": {
-        "id": "d97bd0e4",
+      "5bd0cd9b": {
+        "id": "5bd0cd9b",
         "type": "item",
-        "parent": "_GROUP_0c4ecfda",
+        "parent": "_GROUP_d9404982",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Paragraph 6"
       },
-      "2ce93ee0": {
-        "id": "2ce93ee0",
+      "80a4e881": {
+        "id": "80a4e881",
         "type": "item",
-        "parent": "_GROUP_0c4ecfda",
+        "parent": "_GROUP_d9404982",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Settings Applications Icon 1"
       },
-      "1c503549": {
-        "id": "1c503549",
+      "0c394aa9": {
+        "id": "0c394aa9",
         "type": "item",
-        "parent": "_GROUP_4131360d",
+        "parent": "_GROUP_75382ebb",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 14"
       },
-      "59f0428b": {
-        "id": "59f0428b",
+      "87e972bb": {
+        "id": "87e972bb",
         "type": "item",
-        "parent": "_GROUP_4131360d",
+        "parent": "_GROUP_75382ebb",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Nutritionists 1"
+      },
+      "2d12134d": {
+        "id": "2d12134d",
+        "type": "item",
+        "parent": "_GROUP_75382ebb",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Premium 1"
       },
-      "6846cd8e": {
-        "id": "6846cd8e",
+      "000b82d4": {
+        "id": "000b82d4",
         "type": "item",
-        "parent": "_GROUP_3c06889f",
+        "parent": "_GROUP_11d53b59",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Gym 1"
       },
-      "2e661a04": {
-        "id": "2e661a04",
+      "47b99348": {
+        "id": "47b99348",
         "type": "item",
-        "parent": "_GROUP_3c06889f",
+        "parent": "_GROUP_11d53b59",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Equipment 1"
       },
-      "f17fe28e": {
-        "id": "f17fe28e",
+      "4ba9b2de": {
+        "id": "4ba9b2de",
         "type": "item",
-        "parent": "_GROUP_a6b29ec9",
+        "parent": "_GROUP_9fd039fb",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 19"
       },
-      "fd37f239": {
-        "id": "fd37f239",
+      "c9106e8d": {
+        "id": "c9106e8d",
         "type": "item",
-        "parent": "_GROUP_a6b29ec9",
+        "parent": "_GROUP_9fd039fb",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Paragraph 11"
       },
-      "b3e48602": {
-        "id": "b3e48602",
+      "83426d72": {
+        "id": "83426d72",
         "type": "item",
-        "parent": "_GROUP_a6b29ec9",
+        "parent": "_GROUP_9fd039fb",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Login Icon 1"
       },
-      "7a5c2c89": {
-        "id": "7a5c2c89",
+      "8b3f16d0": {
+        "id": "8b3f16d0",
         "type": "item",
-        "parent": "_GROUP_e9556d9c",
+        "parent": "_GROUP_0e1fd087",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 23"
       },
-      "9fa11760": {
-        "id": "9fa11760",
+      "d42cdace": {
+        "id": "d42cdace",
         "type": "item",
-        "parent": "_GROUP_e9556d9c",
+        "parent": "_GROUP_0e1fd087",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Paragraph 12"
       },
-      "a7903ca8": {
-        "id": "a7903ca8",
+      "7ccbd13b": {
+        "id": "7ccbd13b",
         "type": "item",
-        "parent": "_GROUP_ddc65a70",
+        "parent": "_GROUP_67cfb7e5",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Rectangle 24"
       },
-      "3261c966": {
-        "id": "3261c966",
+      "1f986d1b": {
+        "id": "1f986d1b",
         "type": "item",
-        "parent": "_GROUP_ddc65a70",
+        "parent": "_GROUP_67cfb7e5",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Paragraph 13"
       },
-      "e1b2ef8c": {
-        "id": "e1b2ef8c",
+      "6505d1a2": {
+        "id": "6505d1a2",
         "type": "item",
-        "parent": "_GROUP_35aafd39",
+        "parent": "_GROUP_18edc2dc",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "At Sign Icon 1"
       },
-      "c8faa12d": {
-        "id": "c8faa12d",
+      "05d26350": {
+        "id": "05d26350",
         "type": "item",
-        "parent": "_GROUP_35aafd39",
+        "parent": "_GROUP_18edc2dc",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Paragraph 1 Copy 6"
       },
-      "a84415ee": {
-        "id": "a84415ee",
+      "70ac5068": {
+        "id": "70ac5068",
         "type": "item",
-        "parent": "_GROUP_fe72bf9c",
+        "parent": "_GROUP_629ed826",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Forum﻿ 1"
       },
-      "540ad771": {
-        "id": "540ad771",
+      "8b71409f": {
+        "id": "8b71409f",
         "type": "item",
-        "parent": "_GROUP_fe72bf9c",
+        "parent": "_GROUP_629ed826",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Restaurant Icon 1"
       },
-      "e667a3aa": {
-        "id": "e667a3aa",
+      "d62b10a8": {
+        "id": "d62b10a8",
         "type": "item",
-        "parent": "_GROUP_fe72bf9c",
+        "parent": "_GROUP_629ed826",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Chat Bubble Icon 1"
       },
-      "2d7b53db": {
-        "id": "2d7b53db",
+      "6c8974dd": {
+        "id": "6c8974dd",
         "type": "item",
-        "parent": "_GROUP_fe72bf9c",
+        "parent": "_GROUP_629ed826",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Fitness Center Icon 2"
       },
-      "eb9e5a7f": {
-        "id": "eb9e5a7f",
+      "af201fc9": {
+        "id": "af201fc9",
         "type": "item",
-        "parent": "_GROUP_fe72bf9c",
+        "parent": "_GROUP_629ed826",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Accessibility New Icon 1"
       },
-      "0f7344d3": {
-        "id": "0f7344d3",
+      "8ee1a82c": {
+        "id": "8ee1a82c",
         "type": "item",
         "locked": false,
         "link": null,
         "aspect_lock": false,
         "visible": true,
         "instance_name": "Grade Icon 1"
+      },
+      "d607e340": {
+        "id": "d607e340",
+        "type": "item",
+        "locked": false,
+        "link": null,
+        "aspect_lock": false,
+        "visible": true,
+        "instance_name": "Text area 1"
       }
     },
     "idMapping": {
-      "46164224": "d40af174",
-      "57598400": "9112b0b7",
-      "_GROUP_c2c6963d": "_GROUP_e287ebea",
-      "_GROUP_bf357984": "_GROUP_0b24ee26",
-      "_GROUP_c9063340": "_GROUP_323fe896",
-      "_GROUP_52fd3e04": "_GROUP_c7f7e493",
-      "_GROUP_f8e4f5a2": "_GROUP_80fffe6f",
-      "_GROUP_fbf08bb4": "_GROUP_783049f9",
-      "_GROUP_4b49f15b": "_GROUP_0c4ecfda",
-      "_GROUP_9ef4dd7e": "_GROUP_4131360d",
-      "_GROUP_9913d127": "_GROUP_3c06889f",
-      "_GROUP_bbf3fb65": "_GROUP_a6b29ec9",
-      "_GROUP_0a280616": "_GROUP_e9556d9c",
-      "_GROUP_4cb29ff2": "_GROUP_ddc65a70",
-      "_GROUP_ad6cab49": "_GROUP_35aafd39",
-      "_GROUP_dee0d2e5": "_GROUP_fe72bf9c",
-      "d87ce944": "f543bf0b",
-      "d44b24a2": "b288a9ef",
-      "309b9ae0": "aa236610",
-      "81f0418f": "ccb1bf31",
-      "748e99e7": "fa3a7d44",
-      "2a9e6592": "8ffe0d9b",
-      "31eb9fd5": "d07e00ba",
-      "e333b6b1": "616531a5",
-      "4a3f60e9": "3a439f26",
-      "5923099f": "bf97e226",
-      "c58066c5": "69aa985b",
-      "fa6ec60b": "c954910c",
-      "f97b87ff": "d072b9f6",
-      "16ba9ab9": "7b94cbb9",
-      "e3b40235": "446c2a52",
-      "6330f67f": "50c831ef",
-      "f96f258e": "91e05c5b",
-      "e011a607": "9986c68a",
-      "c76f3a2b": "ce3a0571",
-      "faf8f218": "883343cb",
-      "5d011e1c": "34424661",
-      "acec770b": "12c35c80",
-      "ea04921b": "e76bca80",
-      "6fe0b179": "00974c24",
-      "ae68fdbb": "5affc25e",
-      "40e73fee": "2f6b3d83",
-      "5c9f5b12": "f46ab0b8",
-      "574423ea": "72e49af8",
-      "fd44204b": "4ef84c37",
-      "f26b91b2": "6c1477a8",
-      "111e9f1b": "285a9983",
-      "1094c876": "d97bd0e4",
-      "9061369b": "2ce93ee0",
-      "c075d6dc": "1c503549",
-      "460c5a85": "59f0428b",
-      "864c28c1": "6846cd8e",
-      "df406198": "2e661a04",
-      "b5d8f367": "f17fe28e",
-      "fa13868d": "fd37f239",
-      "1414abde": "b3e48602",
-      "d11e86dd": "7a5c2c89",
-      "92d1cbff": "9fa11760",
-      "eb36e01a": "a7903ca8",
-      "f7c78fdd": "3261c966",
-      "4686d79a": "e1b2ef8c",
-      "09c321fc": "c8faa12d",
-      "1b148084": "a84415ee",
-      "8060e088": "540ad771",
-      "1bd53713": "e667a3aa",
-      "5542f2ac": "2d7b53db",
-      "b4c6d561": "eb9e5a7f",
-      "3d3726f9": "0f7344d3"
+      "62329256": "5b933fb7",
+      "_GROUP_8607ae27": "_GROUP_64fc9630",
+      "_GROUP_9657e4ce": "_GROUP_8dff94e7",
+      "_GROUP_2ce2a222": "_GROUP_2918e146",
+      "_GROUP_53abbfa0": "_GROUP_68ac39de",
+      "_GROUP_7742782d": "_GROUP_adf6378a",
+      "_GROUP_39fbf15d": "_GROUP_1b948c6b",
+      "_GROUP_c99f7ccd": "_GROUP_d9404982",
+      "_GROUP_eda3664f": "_GROUP_75382ebb",
+      "_GROUP_cd66e18d": "_GROUP_11d53b59",
+      "_GROUP_a5beef57": "_GROUP_9fd039fb",
+      "_GROUP_ec552172": "_GROUP_0e1fd087",
+      "_GROUP_5b7e0d03": "_GROUP_67cfb7e5",
+      "_GROUP_1b055280": "_GROUP_18edc2dc",
+      "_GROUP_5a420ed7": "_GROUP_629ed826",
+      "4018bf4d": "67fd40fb",
+      "e20aae96": "e0ab823a",
+      "6b524e84": "156c0a3a",
+      "e49cb303": "9fb6b924",
+      "dd6a43c8": "bfaaa1bd",
+      "46cf1c36": "98377023",
+      "9496ddbd": "16d5930a",
+      "7b8b1b52": "5452577f",
+      "3426f8f3": "09cb76d8",
+      "150d0764": "694c0ca0",
+      "f1f976c2": "10179e38",
+      "9a870ef3": "4ed10a4d",
+      "f0cfba92": "627c76e9",
+      "bd719d3d": "f7c3f10c",
+      "bffd610e": "341e8102",
+      "818add78": "6658f2b5",
+      "b55c5fe7": "bc5b70b6",
+      "58e50b9f": "a3a5786b",
+      "f910526a": "019e5dce",
+      "a3d51a69": "002851e9",
+      "72ead8c0": "a02cee9e",
+      "df5f79c6": "f0951276",
+      "a071ac21": "0ca35965",
+      "3bc899a6": "8279c46a",
+      "9c4abe89": "c8bd89c8",
+      "4774e85a": "0ec622c2",
+      "b0aad2e8": "1f777c45",
+      "0c0e917b": "d5061ace",
+      "05dbae35": "175dbca7",
+      "32df2faa": "c0a5dfa4",
+      "b2d58672": "ee2d8414",
+      "6e5300a1": "6adc0569",
+      "faa19c46": "049ec006",
+      "b1935e50": "a10a2c3e",
+      "a2f30d04": "4242b8a7",
+      "676a3502": "c9721bd5",
+      "7ed944e5": "808fe153",
+      "596ebdaa": "633c7c29",
+      "83566a18": "5bd0cd9b",
+      "b9dec3d3": "80a4e881",
+      "4dc32cdb": "0c394aa9",
+      "08ebdf6e": "87e972bb",
+      "dd7548c2": "2d12134d",
+      "491d7001": "000b82d4",
+      "48be1ff5": "47b99348",
+      "d4a47eee": "4ba9b2de",
+      "bfa1906f": "c9106e8d",
+      "fafd2cce": "83426d72",
+      "d1e595dc": "8b3f16d0",
+      "2ebd5ace": "d42cdace",
+      "d769b566": "7ccbd13b",
+      "405c4398": "1f986d1b",
+      "3cad48b8": "6505d1a2",
+      "fb96cfa9": "05d26350",
+      "2ec71243": "70ac5068",
+      "f5ba5d20": "8b71409f",
+      "97a614ff": "d62b10a8",
+      "68d00666": "6c8974dd",
+      "617ca0b1": "af201fc9",
+      "3108bfc6": "8ee1a82c",
+      "20a155f0": "d607e340"
     },
     "size": {
       "width": 1366,
