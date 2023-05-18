@@ -19,7 +19,7 @@ public class App
     	FirebaseInit.initialize();
         CaloriesBurnedApi.fetch("ski");
         NutritionApi.fetch("256g potato");
-        FirebaseService.saveUserDetails("Dionkaps");
+        FirebaseService.savePostDetails("Sample Title", "John Doe",3,0);
         System.out.println();
         ReadUserData.readAllUserData();
     }

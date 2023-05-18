@@ -19,7 +19,7 @@ public class FirebaseInit {
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .build();
-
+            System.out.println("Connection secured!");
             FirebaseApp.initializeApp(options);
         } catch (Exception e) {
             e.printStackTrace();
