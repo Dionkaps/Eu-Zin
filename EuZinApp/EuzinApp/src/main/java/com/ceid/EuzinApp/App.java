@@ -1,5 +1,8 @@
 package com.ceid.EuzinApp;
 
+import services.CaloriesBurnedApi;
+import services.NutritionApi;
+
 /**
  * Hello world!
  *
