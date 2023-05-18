@@ -26,5 +26,7 @@ public class FirebaseService {
         System.out.println("Data uploaded to the server!");
         
         return writeResult.get().getUpdateTime().toString();
+        
+        //NA KANWW UPDATE TO VALUE ANALOGA AN EKANE LIKE I DISLIKE O XRISTIS
     }
 }
