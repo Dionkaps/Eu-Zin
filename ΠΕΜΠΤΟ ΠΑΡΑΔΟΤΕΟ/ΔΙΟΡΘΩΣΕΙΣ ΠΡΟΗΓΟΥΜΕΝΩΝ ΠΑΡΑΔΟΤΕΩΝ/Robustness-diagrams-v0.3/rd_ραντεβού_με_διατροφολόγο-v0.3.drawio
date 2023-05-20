@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T21:19:23.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="0YXpsQ7NkLSkiRPis8jW" version="21.3.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-20T12:59:42.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="_q7dJHFw4aaxz7O_GojC" version="21.3.2" type="device">
   <diagram name="Σελίδα-1" id="h-o1yX0LM2CVH-15DDE9">
     <mxGraphModel dx="1886" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
             <mxPoint x="770" y="673" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mxpaeU-n5_tWIOXO6mhX-20" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Έχει ο διατροφολόγος κάποια ελεύθερη ώρα για ραντεβού την ημέρα εκείνη&lt;/font&gt;;&amp;nbsp;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="mxpaeU-n5_tWIOXO6mhX-20" value="Υπάρχει διαθέσιμη ώρα;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="857.5" y="610" width="99" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mxpaeU-n5_tWIOXO6mhX-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.022;exitY=0.761;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.942;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mxpaeU-n5_tWIOXO6mhX-20" target="mxpaeU-n5_tWIOXO6mhX-26" edge="1">
@@ -287,24 +287,6 @@
         <mxCell id="mxpaeU-n5_tWIOXO6mhX-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;όχι&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;rotation=0;fontColor=#000000;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="815.0026897229322" y="989.9965998721738" as="geometry">
             <mxPoint x="-9" y="14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3JyStzm--7BGserNSqWA-1" value="&lt;font&gt;Επιλογή χρήστη&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="900" y="860" width="85" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3JyStzm--7BGserNSqWA-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.777;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mxpaeU-n5_tWIOXO6mhX-45" target="3JyStzm--7BGserNSqWA-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="879.5" y="1060" as="sourcePoint" />
-            <mxPoint x="960.5" y="979" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3JyStzm--7BGserNSqWA-3" value="&lt;font&gt;Επιλογή χρήστη&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1085" y="100" width="85" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3JyStzm--7BGserNSqWA-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.809;exitY=0.17;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.187;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mxpaeU-n5_tWIOXO6mhX-9" target="3JyStzm--7BGserNSqWA-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="944" y="641" as="sourcePoint" />
-            <mxPoint x="993" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
