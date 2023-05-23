@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T13:29:29.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="HYWWBxUO1izivC8YNjyv" version="21.3.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-23T16:20:54.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="EBDCPI9O158FlHst-vOM" version="21.3.3" type="device">
   <diagram name="Σελίδα-1" id="WVEBd1sjFHavCeA0LY7U">
-    <mxGraphModel dx="3635" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2563" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,8 +222,17 @@
             <mxPoint x="689" y="1416" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SoW9vWZfNO9EW_fRScha-1" value="&lt;font&gt;Εμφάνισε μήνυμα για ολοκλήρωση εγγραφής&amp;nbsp;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="SoW9vWZfNO9EW_fRScha-1" value="&lt;font&gt;Εμφάνισε μήνυμα για ολοκλήρωση εγγραφής&amp;nbsp;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="410" y="1490" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w8nqDf1ZR5iuJsB7VwVL-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;exitX=0.8;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.233;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SWPQcaOPygvo77F1xrFM-228" target="w8nqDf1ZR5iuJsB7VwVL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="1540" as="targetPoint" />
+            <mxPoint x="614" y="1460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8nqDf1ZR5iuJsB7VwVL-2" value="Φόρμα συμπλήρωσης στοιχείων" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1490" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
