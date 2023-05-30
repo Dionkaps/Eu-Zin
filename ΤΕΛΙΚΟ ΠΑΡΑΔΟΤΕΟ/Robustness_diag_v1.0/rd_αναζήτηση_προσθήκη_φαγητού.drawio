@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T18:25:39.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="ES-j2Bs6NeFDvehcb3iI" version="21.3.4" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-30T13:07:03.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="FMeSJVrpAmF2fTaTLa26" version="21.3.5" type="device">
   <diagram name="Σελίδα-1" id="WVEBd1sjFHavCeA0LY7U">
-    <mxGraphModel dx="2290" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1470" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,13 +79,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YgxCESBMvR3g6pSDMQeH-29" value="όχι" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.486;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YgxCESBMvR3g6pSDMQeH-30" target="YgxCESBMvR3g6pSDMQeH-40" edge="1">
+        <mxCell id="YgxCESBMvR3g6pSDMQeH-29" value="όχι" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.541;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YgxCESBMvR3g6pSDMQeH-30" target="eO7SmV3dnEBd-jgBr2SZ-8" edge="1">
           <mxGeometry x="-0.9854" y="9" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1719" y="1660" />
-              <mxPoint x="1720" y="1660" />
               <mxPoint x="1720" y="1600" />
-              <mxPoint x="984" y="1600" />
+              <mxPoint x="1234" y="1600" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -116,16 +115,10 @@
         <mxCell id="YgxCESBMvR3g6pSDMQeH-37" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="YgxCESBMvR3g6pSDMQeH-40" target="YgxCESBMvR3g6pSDMQeH-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YgxCESBMvR3g6pSDMQeH-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.04;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.024;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-8" target="YgxCESBMvR3g6pSDMQeH-40" edge="1">
+        <mxCell id="YgxCESBMvR3g6pSDMQeH-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.971;entryY=0.58;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.024;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-8" target="YgxCESBMvR3g6pSDMQeH-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="2160" as="sourcePoint" />
             <mxPoint x="1410" y="2130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YgxCESBMvR3g6pSDMQeH-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-5" target="eO7SmV3dnEBd-jgBr2SZ-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1400" y="1960" as="sourcePoint" />
-            <mxPoint x="1360" y="1920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YgxCESBMvR3g6pSDMQeH-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Εμφάνισε&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
@@ -143,10 +136,10 @@
           <mxGeometry x="2315" y="1543" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YgxCESBMvR3g6pSDMQeH-47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Άθροισε μακροθ. συστ. και ανανέωσε ημ. λίστα κατανάλωσης&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1390" y="1960.5" width="100" height="120" as="geometry" />
+          <mxGeometry x="1380" y="1959" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YgxCESBMvR3g6pSDMQeH-48" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="2180" width="80" height="80" as="geometry" />
+          <mxGeometry x="1390" y="2200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YgxCESBMvR3g6pSDMQeH-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Εμφάνισε&amp;nbsp;&lt;br&gt;μήνυμα ανεπιτυχούς εντοπισμού&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=16;fontColor=#FFFFFF;fillColor=#FF0000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2122" y="1659.5" width="93" height="109.5" as="geometry" />
@@ -216,19 +209,10 @@
             <mxPoint x="1963" y="2141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Λήψη ημ. λίστας γευμάτων&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="1980.5" width="70" height="80" as="geometry" />
+        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Λήψη ημ. λίστας κατανάλωσης και ημ. λίστας γευμάτων&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="1942.5" width="120" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.74;exitY=0.953;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-5" target="YgxCESBMvR3g6pSDMQeH-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1430" y="2170" as="sourcePoint" />
-            <mxPoint x="1352" y="2067" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Λήψη ημ. λίστας κατανάλωσης&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="1960.5" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.722;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.039;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-8" target="YgxCESBMvR3g6pSDMQeH-48" edge="1">
+        <mxCell id="eO7SmV3dnEBd-jgBr2SZ-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.861;exitY=0.918;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eO7SmV3dnEBd-jgBr2SZ-8" target="YgxCESBMvR3g6pSDMQeH-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1386" y="1911" as="sourcePoint" />
             <mxPoint x="1350" y="2360" as="targetPoint" />
@@ -252,13 +236,13 @@
             <mxPoint x="1445" y="2002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UoLD6eKdaacR0ySF1BCa-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.028;exitY=0.602;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YgxCESBMvR3g6pSDMQeH-47" target="eO7SmV3dnEBd-jgBr2SZ-5">
+        <mxCell id="UoLD6eKdaacR0ySF1BCa-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.028;exitY=0.602;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.012;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YgxCESBMvR3g6pSDMQeH-47" target="eO7SmV3dnEBd-jgBr2SZ-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1582" y="2086" as="sourcePoint" />
-            <mxPoint x="1533" y="2281" as="targetPoint" />
+            <mxPoint x="1339.4399999999996" y="2028.7400000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UoLD6eKdaacR0ySF1BCa-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.506;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.317;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YgxCESBMvR3g6pSDMQeH-47" target="YgxCESBMvR3g6pSDMQeH-48">
+        <mxCell id="UoLD6eKdaacR0ySF1BCa-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.506;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YgxCESBMvR3g6pSDMQeH-47" target="YgxCESBMvR3g6pSDMQeH-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1582" y="2086" as="sourcePoint" />
             <mxPoint x="1533" y="2281" as="targetPoint" />
