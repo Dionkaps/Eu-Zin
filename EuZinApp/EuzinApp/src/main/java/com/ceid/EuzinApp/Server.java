@@ -2,10 +2,14 @@ package com.ceid.EuzinApp;
 
 import java.io.FileInputStream;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 import com.google.cloud.firestore.DocumentReference;
+import com.google.cloud.firestore.DocumentSnapshot;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.FirestoreOptions;
+import com.google.cloud.firestore.WriteResult;
+import com.google.api.core.ApiFuture;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
@@ -64,15 +68,33 @@ public class Server {
 		else {
 			System.out.println("You made a typo");
 		}
-		CommentPage.showCommentPage();
+		CommentPage.showCommentPage(id);
 
 	}
 	
-	public static void updatePostComments(String comment) {
-		
+	public static void updatePostComments(String comment,String id) throws InterruptedException, ExecutionException {
+		Firestore dbFirestore = FirestoreClient.getFirestore();
+        DocumentReference documentReference = dbFirestore.collection("posts").document(id);
+
+        ApiFuture<DocumentSnapshot> future = documentReference.get();
+        DocumentSnapshot document = future.get();
+
+        List<String> comments;
+        if (document.exists()) {
+            comments = (List<String>) document.get("comments");
+            if (comments == null) {
+                comments = new ArrayList<>();
+            }
+        } else {
+            comments = new ArrayList<>();
+        }
+        comments.add(comment);
+
+        ApiFuture<WriteResult> writeResult = documentReference.update("comments", comments);
+        showCompletion();
 	}
 	
-	public void showCompletion() {
-		
+	public static void showCompletion() {
+		System.out.println("Comment added to the post!");
 	}
 }
