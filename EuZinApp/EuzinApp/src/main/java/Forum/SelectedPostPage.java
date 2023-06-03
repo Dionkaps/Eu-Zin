@@ -1,4 +1,4 @@
-package com.ceid.EuzinApp;
+package Forum;
 
 import java.util.List;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.ceid.EuzinApp;
+package Forum;
 
 import java.io.FileInputStream;
 import java.util.ArrayList;

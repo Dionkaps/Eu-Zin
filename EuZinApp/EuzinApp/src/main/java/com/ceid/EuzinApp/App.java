@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
+import Forum.Posts;
+import Forum.Server;
 import services.CaloriesBurnedApi;
 import services.FirebaseInit;
 import services.NutritionApi;
