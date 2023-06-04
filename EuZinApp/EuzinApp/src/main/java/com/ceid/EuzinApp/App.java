@@ -19,14 +19,14 @@ public class App
 {
     public static void main( String[] args ) throws InterruptedException, ExecutionException
     {
-    	ArrayList<Posts> postsArray = new ArrayList<>();
+    	//ArrayList<Posts> postsArray = new ArrayList<>();
     	//FirebaseInit.initialize();
         //CaloriesBurnedApi.fetch("ski");
         //NutritionApi.fetch("256g potato");
         //FirebaseService.savePostDetails("Sample Title", "John Doe",3,0);
         //System.out.println();
         //ReadPostData.readAllPostData();
-    	Server.serverInit();
+    	/*Server.serverInit();
     	Posts.fetchPostData(postsArray);
     	
     	
@@ -48,7 +48,7 @@ public class App
     	    }
 
     	    System.out.println("------------------------------");
-    	}
+    	}*/
 
     }
 }
