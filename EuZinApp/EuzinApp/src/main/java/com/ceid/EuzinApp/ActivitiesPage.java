@@ -1,4 +1,4 @@
-package caloriesBurnt;
+package com.ceid.EuzinApp;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class ActivitiesPage {
 	}
 	
 	public static void chooseAct(ArrayList<Activities> ActDetails) {
-		System.out.println("Choose an activity from the above\n(by typing the corresponding number)");
+		System.out.println("\nChoose an activity from the above (by typing the corresponding number)");
 		Scanner answer = new Scanner(System.in);
         int inputAnswer = answer.nextInt();
         

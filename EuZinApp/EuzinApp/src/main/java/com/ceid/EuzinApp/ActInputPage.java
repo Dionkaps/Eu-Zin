@@ -1,16 +1,10 @@
-package caloriesBurnt;
+package com.ceid.EuzinApp;
 
 import java.util.Scanner;
 
 import org.json.simple.parser.ParseException;
 
 public class ActInputPage {
-
-	public static void main(String[] args) throws ParseException {
-		
-		showInputPage();
-
-	}
 	
 	public static void showInputPage() throws ParseException {
 		System.out.println("Insert the name of the activity you want to search for:");

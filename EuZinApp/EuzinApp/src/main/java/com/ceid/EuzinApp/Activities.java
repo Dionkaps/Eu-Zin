@@ -1,4 +1,4 @@
-package caloriesBurnt;
+package com.ceid.EuzinApp;
 
 import java.util.ArrayList;
 

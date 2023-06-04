@@ -1,5 +1,7 @@
-package foodSearch;
+package com.ceid.EuzinApp;
 import java.util.ArrayList;
+
+import com.ceid.EuzinApp.User;
 
 public class DailyListsPage {
 
@@ -22,9 +24,9 @@ public class DailyListsPage {
 		    
 		    counter++;
 		}
-		User user = FoodSearchPage.testUser;
+		User user = EuZin.testUser;
 		
-		System.out.println("\nYou consumed:");
+		System.out.println("\nSo far you have consumed:");
 		System.out.println("\nCalories (kcal): " + user.totCalories + "\nCarbs (g): " + user.totCarbs + "\nFat (g): " + user.totFat + "\nProtein (g): " + user.totProtein + " " );
 	}
 	

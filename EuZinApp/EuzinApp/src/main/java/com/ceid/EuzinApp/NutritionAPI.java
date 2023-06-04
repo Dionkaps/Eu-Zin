@@ -1,4 +1,4 @@
-package foodSearch;
+package com.ceid.EuzinApp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

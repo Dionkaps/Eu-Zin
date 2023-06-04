@@ -1,4 +1,4 @@
-package caloriesBurnt;
+package com.ceid.EuzinApp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

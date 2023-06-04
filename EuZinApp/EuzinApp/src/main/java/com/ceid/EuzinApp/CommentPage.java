@@ -1,4 +1,4 @@
-package Forum;
+package com.ceid.EuzinApp;
 
 import java.util.Scanner;
 import java.util.concurrent.ExecutionException;

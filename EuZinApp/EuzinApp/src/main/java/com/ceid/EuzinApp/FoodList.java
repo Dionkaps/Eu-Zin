@@ -1,6 +1,8 @@
-package foodSearch;
+package com.ceid.EuzinApp;
 
 import java.util.ArrayList;
+
+import com.ceid.EuzinApp.User;
 
 public class FoodList {
 	
@@ -44,7 +46,7 @@ public class FoodList {
 	
 	public static void getFoodData2(double calories, double carbs, double fat, double protein) {
 		
-		User user = FoodSearchPage.testUser;
+		User user = EuZin.testUser;
 		
 		//update user Calories
 		double currentCalories = user.totCalories;

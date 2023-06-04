@@ -1,6 +1,8 @@
-package foodSearch;
+package com.ceid.EuzinApp;
 
 import java.util.Scanner;
+
+import com.ceid.EuzinApp.User;
 
 public class FoodDetailsPage {
 	

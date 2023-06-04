@@ -1,4 +1,4 @@
-package Forum;
+package com.ceid.EuzinApp;
 
 import java.io.FileInputStream;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ public class Server {
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .build();
-            System.out.println("Connection secured!");
+            System.out.println("Connection secured! Loading data from the server \n");
             FirebaseApp.initializeApp(options);
         } catch (Exception e) {
             e.printStackTrace();
