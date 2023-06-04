@@ -2,7 +2,7 @@ package caloriesBurnt;
 
 public class CaloriesBurntPage {
 	
-	public void showCalBurnt() {
+	public static void showCalBurnt() {
 		
 	}
 }

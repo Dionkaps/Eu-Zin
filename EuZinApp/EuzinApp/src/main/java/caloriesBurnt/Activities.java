@@ -1,16 +1,31 @@
 package caloriesBurnt;
 
-public class Activities {
+import java.util.ArrayList;
 
-	public void saveActivity() {
-		
+public class Activities {
+	
+	String name;
+	double caloriesBurnt;
+	
+	public Activities(String name, double caloriesBurnt) {
+		super();
+		this.name = name;
+		this.caloriesBurnt = caloriesBurnt;
+	}
+
+	
+
+	public static void saveActivity(ArrayList<Activities> ActDetails) {
+		Activities.getAct(ActDetails);
 	}
 	
-	public void getAct() {
-		
+	public static void getAct(ArrayList<Activities> ActDetails) {
+		ActivitiesPage.showActList(ActDetails);
 	}
 	
-	public void getCalPerHour() {
+	public static void getCalPerHour(Activities act, int timeSpent) {
+		double cal = act.caloriesBurnt;
 		
+		User.calculateCal(cal,act,timeSpent);
 	}
 }
