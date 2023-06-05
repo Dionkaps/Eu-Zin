@@ -2,7 +2,9 @@ package com.ceid.EuzinApp;
 import java.util.ArrayList;
 
 import java.util.Map;
+import java.util.Scanner;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class User {
 	
@@ -12,9 +14,11 @@ public class User {
 	double totCarbs;
 	double totFat;
 	double totProtein;
+	double balance;
+
 
 	public User(ArrayList<FoodList> foodList, ArrayList<Map<String, String>> appointmentData, double totCalories,
-			double totCarbs, double totFat, double totProtein) {
+			double totCarbs, double totFat, double totProtein, double balance) {
 		super();
 		this.foodList = foodList;
 		this.appointmentData = appointmentData;
@@ -22,6 +26,7 @@ public class User {
 		this.totCarbs = totCarbs;
 		this.totFat = totFat;
 		this.totProtein = totProtein;
+		this.balance = balance;
 	}
 
 	public static void addFoodDailyMeals(String name, double calories, double carbs, double fat, double protein) {
@@ -107,5 +112,43 @@ public class User {
 	public static void showError() {
 		System.out.println("\nYou haven't made an appointment with this Nutritionist in the past so you can't review him\n");
 		Nutritionist.getNutrNames(2);
+	}
+	
+	public static void getBalance(HashSet<String> uniqueShopNames) {
+		double balance;
+		User user = EuZin.testUser;
+		
+		balance = user.balance;
+		
+		ShoppingPage.showShopList(uniqueShopNames,balance);
+	}
+	
+	public static void addToCart(String shopName,ArrayList<Object[]> productsAndPrices) {
+		ArrayList<Object[]> userCart = new ArrayList<>();
+		String userAnswer;
+		do {
+		System.out.println("\nChoose a product by typing its corresponding number:");
+		Scanner product = new Scanner(System.in);  
+		int chosenProduct = product.nextInt();
+		
+		Object[] productAndPrice = productsAndPrices.get(chosenProduct);
+		String productName = (String) productAndPrice[0];
+		double productPrice = (double)productAndPrice[1];
+		
+		System.out.println("\nHow many " + productName + " do you want?");
+		Scanner prodAmount = new Scanner(System.in);  
+		int chosenAmount = prodAmount.nextInt();
+		
+		userCart.add(new Object[]{productName, chosenAmount, productPrice});
+		
+		System.out.println("\nDo you want to choose any other products? (y/n)");
+		Scanner answer = new Scanner(System.in);  
+		userAnswer = answer.nextLine();
+		}while(userAnswer.equals("y"));
+		CheckoutPage.showConfirm(userCart);
+	}
+	
+	public static void getCartData(ArrayList<Object[]> productList) {
+		ConfirmationPage.showPurchase(productList);
 	}
 }

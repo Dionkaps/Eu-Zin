@@ -28,6 +28,8 @@ public class EuZin
 	static ArrayList<Nutritionist> nutritionists = new ArrayList<>();
 	static ArrayList<Map<String, String>> appointmentData = new ArrayList<>();
 	static ArrayList<Review> reviews = new ArrayList<>();
+	static ArrayList<Object[]> shopInventory = new ArrayList<>();
+	
     public static void main( String[] args ) throws InterruptedException, ExecutionException, ParseException
     {	
     	reviews.add(new Review("Great nutritionist!", 5));
@@ -39,7 +41,7 @@ public class EuZin
 		foodList.add(new FoodList("tsoureki", 312, 35, 11, 32));
 		foodList.add(new FoodList("yogurt", 122, 60, 12, 12));
 		
-		EuZin.testUser = new User(foodList,appointmentData,568.0,177.0,65.0,72.0); //Test User init
+		EuZin.testUser = new User(foodList,appointmentData,568.0,177.0,65.0,72.0,63.2); //Test User init
 		
 		Map<String, String> appointment1 = new HashMap<>();
         appointment1.put("Nutritionist: ", "Kap Kap");
@@ -47,7 +49,7 @@ public class EuZin
         appointment1.put("Time: ", "10:00");
         testUser.appointmentData.add(appointment1);
 		
-        // Creating the first test object
+        //Creating the first test object
         String name1 = "Kap Kap";
         String email1 = "kap.kap@example.com";
         String bio1 = "Experienced nutritionist specializing in weight management.";
@@ -75,7 +77,7 @@ public class EuZin
         nutritionist1 = new Nutritionist(name1, email1, bio1, phone1, schedule1, reviews);
 
 
-        // Creating the second test object
+        //Creating the second test object
         String name2 = "Peter Peterson";
         String email2 = "peter.son@example.com";
         String bio2 = "Certified nutritionist passionate about holistic health.";
@@ -105,6 +107,12 @@ public class EuZin
         nutritionists.add(nutritionist1);
         nutritionists.add(nutritionist2);
         
+        //Add shop information, products, and prices
+        shopInventory.add(new Object[]{"Shop A", "Product 1", 10.90});
+        shopInventory.add(new Object[]{"Shop A", "Product 2", 19.90});
+        shopInventory.add(new Object[]{"Shop B", "Product 3", 7.90});
+        shopInventory.add(new Object[]{"Shop B", "Product 4", 5.90});
+        
         Scanner nameInput = new Scanner(System.in);  
 		System.out.println("Type the corresponding number for what you want to do:\n1. Anagnwsi kai aksiologisi anartisewn xristi"
 				+ "\n2. Athlisi kai ipologismos thermidwn \n3. Anazitisi kai prosthiki fagitou");
@@ -120,9 +128,9 @@ public class EuZin
 			FoodSearchPage.getFood();
 		}
 		else if(choice==4) {
-			Nutritionist.getNutrNames();
+			Nutritionist.getNutrNames(0);
 		}*/
-		Nutritionist.getNutrNames(0);
+		ShopsAndProducts.getShopData();
 		
 		
     	
