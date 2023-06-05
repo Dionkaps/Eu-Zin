@@ -151,4 +151,47 @@ public class User {
 	public static void getCartData(ArrayList<Object[]> productList) {
 		ConfirmationPage.showPurchase(productList);
 	}
+	
+	public static void checkBalance(double totalPrice) {
+		User user = EuZin.testUser;
+		double userBalance = user.balance;
+		if(totalPrice>userBalance) {
+			TopUpBalancePage.showUpdateBalance(totalPrice);
+		}
+		else {
+			CouponPage.showDiscPage(totalPrice);
+		}
+	}
+	
+	public static void updateBalance(double totalPrice, double amount) {
+		User user = EuZin.testUser;
+		double curAmount = user.balance;
+		
+		curAmount = curAmount + amount;
+		
+		user.balance = curAmount;
+		
+		checkBalance(totalPrice);
+	}
+	
+	public static void calculateCost(double totalPrice) {
+		double newCost = totalPrice - totalPrice*0.3;
+		User.calculateBalance(newCost);
+	}
+	
+	public static void calculateBalance(double totalPrice) {
+		User user = EuZin.testUser;
+		double tempBalance = user.balance;
+		
+		tempBalance = tempBalance - totalPrice;
+		getBalance(tempBalance);
+	}
+	
+	public static void getBalance(double newBalance) {
+		User user = EuZin.testUser;
+		
+		user.balance = newBalance;
+		
+		NewBalancePage.showNewBalance();
+	}
 }

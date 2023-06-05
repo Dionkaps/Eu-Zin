@@ -29,6 +29,7 @@ public class EuZin
 	static ArrayList<Map<String, String>> appointmentData = new ArrayList<>();
 	static ArrayList<Review> reviews = new ArrayList<>();
 	static ArrayList<Object[]> shopInventory = new ArrayList<>();
+	static ArrayList<String> couponCodes = new ArrayList<>();
 	
     public static void main( String[] args ) throws InterruptedException, ExecutionException, ParseException
     {	
@@ -41,7 +42,7 @@ public class EuZin
 		foodList.add(new FoodList("tsoureki", 312, 35, 11, 32));
 		foodList.add(new FoodList("yogurt", 122, 60, 12, 12));
 		
-		EuZin.testUser = new User(foodList,appointmentData,568.0,177.0,65.0,72.0,63.2); //Test User init
+		EuZin.testUser = new User(foodList,appointmentData,568.0,177.0,65.0,72.0,200); //Test User init
 		
 		Map<String, String> appointment1 = new HashMap<>();
         appointment1.put("Nutritionist: ", "Kap Kap");
@@ -113,11 +114,20 @@ public class EuZin
         shopInventory.add(new Object[]{"Shop B", "Product 3", 7.90});
         shopInventory.add(new Object[]{"Shop B", "Product 4", 5.90});
         
+        //Adding coupon codes to the ArrayList
+        couponCodes.add("SAVE10");
+        couponCodes.add("25OFF");
+        couponCodes.add("FREESHIP");
+        couponCodes.add("SUMMER20");
+        couponCodes.add("BOGO50");
+        
         Scanner nameInput = new Scanner(System.in);  
 		System.out.println("Type the corresponding number for what you want to do:\n1. Anagnwsi kai aksiologisi anartisewn xristi"
-				+ "\n2. Athlisi kai ipologismos thermidwn \n3. Anazitisi kai prosthiki fagitou");
+				+ "\n2. Athlisi kai ipologismos thermidwn \n3. Anazitisi kai prosthiki fagitou"
+				+ "\n4. Rantevou me diatrfologo/Aksiologisi diatrofologou \n5. Agora Epoaggelmatikou eksoplismou / Plirwmi paraggelias");
 		int choice = nameInput.nextInt();
-		/*if(choice==1) {
+		
+		if(choice==1) {
 			Server.serverInit();
 	    	Posts.getPostsNames(postTitles);
 		}
@@ -129,13 +139,10 @@ public class EuZin
 		}
 		else if(choice==4) {
 			Nutritionist.getNutrNames(0);
-		}*/
-		ShopsAndProducts.getShopData();
-		
-		
-    	
-    	
-		
+		}
+		else if(choice==5) {
+			ShopsAndProducts.getShopData();
+		}
 		
     }
 }

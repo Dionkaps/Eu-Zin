@@ -1,5 +1,7 @@
 package com.ceid.EuzinApp;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -8,6 +10,7 @@ public class ConfirmationPage {
 
 	public static void showPurchase(ArrayList<Object[]> productList) {
 		HashSet<String> uniqueProducts = new HashSet<>();
+		NumberFormat formatter = new DecimalFormat("#0.0"); 
         double totalPrice = 0.0;
 
         System.out.println("\n~~Products in your Cart~~");
@@ -27,7 +30,7 @@ public class ConfirmationPage {
             }
         }
 
-        System.out.println("Total Price: $" + totalPrice);
+        System.out.println("Total Price: $" + formatter.format(totalPrice));
         
         approve(totalPrice);
     }
@@ -38,7 +41,7 @@ public class ConfirmationPage {
 		String userAnswer = answer.nextLine();
 		
 		if(userAnswer.equals("y")) {
-			
+			CouponPage.pay(totalPrice);
 		}
 		else {
 			ShopsAndProducts.getShopData();
