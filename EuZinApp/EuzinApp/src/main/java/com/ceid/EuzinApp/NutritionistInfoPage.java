@@ -6,21 +6,9 @@ import java.util.Scanner;
 
 public class NutritionistInfoPage {
 
-	public static void showNutrInfoPage(String nutName) {
-		Nutritionist foundNutritionist = null;
+	public static void showNutrInfoPage(String nutName,String name, String email,String bio, int phone, ArrayList<Map<String, ArrayList<String>>> schedule) {
 		
-		for (Nutritionist nutritionist : EuZin.nutritionists) {
-		    if (nutritionist.name.equals(nutName)) {
-		        foundNutritionist = nutritionist;
-		        break;
-		    }
-		}
-		
-		String name = foundNutritionist.name;
-	    String email = foundNutritionist.email;
-	    String bio = foundNutritionist.bio;
-	    int phone = foundNutritionist.phone;
-	    ArrayList<Map<String, ArrayList<String>>> schedule = foundNutritionist.schedule;
+	    
 	    
 	    System.out.println("\nName: " + name);
 	    System.out.println("Email: " + email);

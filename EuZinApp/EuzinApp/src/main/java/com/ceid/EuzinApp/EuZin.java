@@ -42,14 +42,14 @@ public class EuZin
 		EuZin.testUser = new User(foodList,appointmentData,568.0,177.0,65.0,72.0); //Test User init
 		
 		Map<String, String> appointment1 = new HashMap<>();
-        appointment1.put("Nutritionist: ", "John Doe");
+        appointment1.put("Nutritionist: ", "Kap Kap");
         appointment1.put("Day: ", "Monday");
         appointment1.put("Time: ", "10:00");
         testUser.appointmentData.add(appointment1);
 		
         // Creating the first test object
-        String name1 = "John Doe";
-        String email1 = "john.doe@example.com";
+        String name1 = "Kap Kap";
+        String email1 = "kap.kap@example.com";
         String bio1 = "Experienced nutritionist specializing in weight management.";
         int phone1 = 123456789;
 
@@ -76,8 +76,8 @@ public class EuZin
 
 
         // Creating the second test object
-        String name2 = "Jane Smith";
-        String email2 = "jane.smith@example.com";
+        String name2 = "Peter Peterson";
+        String email2 = "peter.son@example.com";
         String bio2 = "Certified nutritionist passionate about holistic health.";
         int phone2 = 987654321;
 

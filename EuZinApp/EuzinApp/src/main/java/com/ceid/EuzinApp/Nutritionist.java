@@ -57,8 +57,22 @@ public class Nutritionist {
 		
 	}
 
-	public static void getNutrInfo() {
+	public static void getNutrInfo(String selectedNutName) {
+		Nutritionist foundNutritionist = null;
 		
+		for (Nutritionist nutritionist : EuZin.nutritionists) {
+		    if (nutritionist.name.equals(selectedNutName)) {
+		        foundNutritionist = nutritionist;
+		        break;
+		    }
+		}
+		
+		String name = foundNutritionist.name;
+	    String email = foundNutritionist.email;
+	    String bio = foundNutritionist.bio;
+	    int phone = foundNutritionist.phone;
+	    ArrayList<Map<String, ArrayList<String>>> schedule = foundNutritionist.schedule;
+		NutritionistInfoPage.showNutrInfoPage(selectedNutName, name, email, bio, phone, schedule);
 	}
 	
 	public static void checkAvailableDates(ArrayList<Map<String, ArrayList<String>>> schedule, int userAnswer, String nutName) {
@@ -118,7 +132,7 @@ public class Nutritionist {
 
 		if (targetNutritionist != null) {
 		    ArrayList<Review> nutReviews = targetNutritionist.reviews;
-		    System.out.println("\nRecent reviews and ratings for " + selectedNut + "\n");
+		    System.out.println("\n~~Recent reviews and ratings for " + selectedNut + "~~\n");
 		    for (Review review : nutReviews) {
 		        System.out.println(review.comment + " " + review.rating +"/5");
 		    }

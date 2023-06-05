@@ -11,7 +11,7 @@ public class NutritionistsPage {
 		
 		String selectedNutName = names.get(nameChoice);
 		
-		NutritionistInfoPage.showNutrInfoPage(selectedNutName);
+		Nutritionist.getNutrInfo(selectedNutName);
 		
 	}
 	
