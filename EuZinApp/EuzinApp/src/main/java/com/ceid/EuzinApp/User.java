@@ -1,25 +1,23 @@
 package com.ceid.EuzinApp;
 import java.util.ArrayList;
 
-import com.ceid.EuzinApp.Activities;
-import com.ceid.EuzinApp.CaloriesBurntPage;
-import com.ceid.EuzinApp.DailyListsPage;
-import com.ceid.EuzinApp.FoodList;
-import com.ceid.EuzinApp.FoodSearchPage;
+import java.util.Map;
+import java.util.HashMap;
 
 public class User {
 	
 	ArrayList<FoodList> foodList = new ArrayList();
+	ArrayList<Map<String, String>> appointmentData = new ArrayList<>();
 	double totCalories;
 	double totCarbs;
 	double totFat;
 	double totProtein;
-	
-	
 
-	public User(ArrayList<FoodList> foodList, double totCalories, double totCarbs, double totFat, double totProtein) {
+	public User(ArrayList<FoodList> foodList, ArrayList<Map<String, String>> appointmentData, double totCalories,
+			double totCarbs, double totFat, double totProtein) {
 		super();
 		this.foodList = foodList;
+		this.appointmentData = appointmentData;
 		this.totCalories = totCalories;
 		this.totCarbs = totCarbs;
 		this.totFat = totFat;
@@ -69,5 +67,22 @@ public class User {
 	
 	public static void getCalBurnt(double totCaloriesBurned) {
 		CaloriesBurntPage.showCalBurnt(totCaloriesBurned);
+	}
+	
+	public static void addAppointment(String appTime, String nutName, String searchDay) {
+		
+		Map<String, String> appointment1 = new HashMap<String, String>();
+        appointment1.put("Nutritionist: ", nutName);
+        appointment1.put("Day: ", searchDay);
+        appointment1.put("Time: ", appTime);
+        
+        getMyAppointmentData(appointment1);
+	}
+	
+	public static void getMyAppointmentData(Map<String, String> appointment1) {
+		User user = EuZin.testUser;
+		
+		user.appointmentData.add(appointment1);
+		MyAppointmentPage.showMyAppointPage();
 	}
 }
