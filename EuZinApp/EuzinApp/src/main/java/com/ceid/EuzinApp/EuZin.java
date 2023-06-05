@@ -33,6 +33,26 @@ public class EuZin
 	
     public static void main( String[] args ) throws InterruptedException, ExecutionException, ParseException
     {	
+    	Gym.gym_array[0] = new Gym("Yava", "Weights" , "Korinthou 17", 25);
+		Gym.gym_array[1] = new Gym("FitPlan", "Weights" , "Karaiskaki 32", 35);
+		Gym.gym_array[2] = new Gym("TopForm", "Weights" , "Katerinis 16", 30);
+		
+		Gym.gym_array[3] = new Gym("Dolph", "Swimming" , "Miaouli 117", 40);
+		Gym.gym_array[4]= new Gym("DiveNGo", "Swimming" , "Votsi 12", 45);
+		
+		Gym.gym_array[5] = new Gym("SofiasClub", "Group dancing" , "Korinthou 157", 20);
+		Gym.gym_array[6] = new Gym("IntenseD", "Group dancing" , "Votsi 157", 23);
+		Gym.gym_array[7] = new Gym("PowerUp", "Group dancing" , "Diakou 157", 35);
+		
+		
+		
+		Gym.gym_array[8] = new Gym("NatureFitness", "Group running" , "Korinthou 100", 35);
+		Gym.gym_array[9] = new Gym("RunCity", "Group running" , "Mezonos 38", 45);
+		
+		Gym.gym_array[10] = new Gym("BeastCity ", "TRX" , "Korinthou 169", 35);
+		Gym.gym_array[11] = new Gym("NonStop", "TRX" , "Papanikolaou 190", 25);
+		Gym.gym_array[12] = new Gym("FitCity", "TRX" , "Ag.Nikolaou 6", 50);
+    	
     	reviews.add(new Review("Great nutritionist!", 5));
     	reviews.add(new Review("Could be better.", 2));
     	reviews.add(new Review("Excellent service.", 4));
@@ -124,7 +144,8 @@ public class EuZin
         Scanner nameInput = new Scanner(System.in);  
 		System.out.println("Type the corresponding number for what you want to do:\n1. Anagnwsi kai aksiologisi anartisewn xristi"
 				+ "\n2. Athlisi kai ipologismos thermidwn \n3. Anazitisi kai prosthiki fagitou"
-				+ "\n4. Rantevou me diatrfologo/Aksiologisi diatrofologou \n5. Agora Epoaggelmatikou eksoplismou / Plirwmi paraggelias");
+				+ "\n4. Rantevou me diatrfologo/Aksiologisi diatrofologou \n5. Agora Epoaggelmatikou eksoplismou / Plirwmi paraggelias"
+				+ "\n6. Eggrafi se gimnastirio");
 		int choice = nameInput.nextInt();
 		
 		if(choice==1) {
@@ -142,6 +163,9 @@ public class EuZin
 		}
 		else if(choice==5) {
 			ShopsAndProducts.getShopData();
+		}
+		else if(choice==6) {
+			Gym.getPrograms();
 		}
 		
     }
