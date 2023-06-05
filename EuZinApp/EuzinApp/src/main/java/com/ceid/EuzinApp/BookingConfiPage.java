@@ -16,7 +16,7 @@ public class BookingConfiPage {
 			User.addAppointment(appTime,nutName,searchDay);
 		}
 		else if(userAnswer.equals("n")) {
-			Nutritionist.getNutrNames();
+			Nutritionist.getNutrNames(1);
 		}
 		else {
 			System.out.println("You made a typo");

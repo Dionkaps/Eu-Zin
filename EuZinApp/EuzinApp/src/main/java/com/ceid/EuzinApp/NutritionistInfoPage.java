@@ -42,7 +42,7 @@ public class NutritionistInfoPage {
 		}
 		else if(userAnswer.equals("n")) { //Enallaktiki Roi 1
 			
-			Nutritionist.getNutrNames();			
+			Nutritionist.getNutrNames(1);			
 		}
 		else {
 			System.out.println("You made a typo");

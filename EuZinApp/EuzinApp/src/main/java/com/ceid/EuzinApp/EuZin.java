@@ -27,8 +27,13 @@ public class EuZin
 	static ArrayList<FoodList> foodList = new ArrayList<>();
 	static ArrayList<Nutritionist> nutritionists = new ArrayList<>();
 	static ArrayList<Map<String, String>> appointmentData = new ArrayList<>();
+	static ArrayList<Review> reviews = new ArrayList<>();
     public static void main( String[] args ) throws InterruptedException, ExecutionException, ParseException
-    {
+    {	
+    	reviews.add(new Review("Great nutritionist!", 5));
+    	reviews.add(new Review("Could be better.", 2));
+    	reviews.add(new Review("Excellent service.", 4));
+    	
     	foodList.add(new FoodList("apple", 12, 32, 1, 2));
 		foodList.add(new FoodList("tost", 122, 50, 17, 26));
 		foodList.add(new FoodList("tsoureki", 312, 35, 11, 32));
@@ -39,7 +44,7 @@ public class EuZin
 		Map<String, String> appointment1 = new HashMap<>();
         appointment1.put("Nutritionist: ", "John Doe");
         appointment1.put("Day: ", "Monday");
-        appointment1.put("Time: ", "10:00 AM");
+        appointment1.put("Time: ", "10:00");
         testUser.appointmentData.add(appointment1);
 		
         // Creating the first test object
@@ -67,7 +72,7 @@ public class EuZin
         schedule1.add(mondaySchedule1);
         schedule1.add(tuesdaySchedule1);
 
-        nutritionist1 = new Nutritionist(name1, email1, bio1, phone1, schedule1);
+        nutritionist1 = new Nutritionist(name1, email1, bio1, phone1, schedule1, reviews);
 
 
         // Creating the second test object
@@ -95,7 +100,7 @@ public class EuZin
         schedule2.add(wednesdaySchedule2);
         schedule2.add(thursdaySchedule2);
 
-        nutritionist2 = new Nutritionist(name2, email2, bio2, phone2, schedule2);
+        nutritionist2 = new Nutritionist(name2, email2, bio2, phone2, schedule2, reviews);
         
         nutritionists.add(nutritionist1);
         nutritionists.add(nutritionist2);
@@ -113,8 +118,12 @@ public class EuZin
 		}
 		else if(choice==3) {
 			FoodSearchPage.getFood();
+		}
+		else if(choice==4) {
+			Nutritionist.getNutrNames();
 		}*/
-		Nutritionist.getNutrNames();
+		Nutritionist.getNutrNames(0);
+		
 		
     	
     	

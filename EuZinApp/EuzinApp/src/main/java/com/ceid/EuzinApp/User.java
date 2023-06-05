@@ -85,4 +85,27 @@ public class User {
 		user.appointmentData.add(appointment1);
 		MyAppointmentPage.showMyAppointPage();
 	}
+	
+	public static void checkAppointments(String selectedNut) {
+		User user = EuZin.testUser;
+		boolean found = false;
+		
+		for (Map<String, String> appointment : user.appointmentData) {
+            if (appointment.containsValue(selectedNut)) {
+                System.out.println("Matching appointment found");
+                found = true;
+                ReviewPage.showReviewPage(selectedNut);
+                break;
+            }
+        }
+		//Enallaktiki Roi1
+		if(found == false) {
+			showError();
+		}
+	}
+	
+	public static void showError() {
+		System.out.println("\nYou haven't made an appointment with this Nutritionist in the past so you can't review him\n");
+		Nutritionist.getNutrNames(2);
+	}
 }
