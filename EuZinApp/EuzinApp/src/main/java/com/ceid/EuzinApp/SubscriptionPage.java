@@ -16,9 +16,9 @@ public abstract class SubscriptionPage{
 		
 		System.out.printf("Subscription page \n\n");
 		System.out.printf("Available choices for the subscription's duration: ");
-		System.out.printf("\n1)One week (%d€)",GymInfoPage.gym_price/4);
-		System.out.printf("\n2)One month (%d€)",GymInfoPage.gym_price);
-		System.out.printf("\n3)One year (%d€)",GymInfoPage.gym_price*12);
+		System.out.printf("\n1)One week (%d)",GymInfoPage.gym_price/4);
+		System.out.printf("\n2)One month (%d)",GymInfoPage.gym_price);
+		System.out.printf("\n3)One year (%d)",GymInfoPage.gym_price*12);
 		
 		System.out.printf("\n\nSelect the duration of your subscription to %s: ",GymInfoPage.gym_name);
 	

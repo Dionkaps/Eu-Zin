@@ -25,7 +25,7 @@ public abstract class GymInfoPage{
 		System.out.printf("Information about %s:", gym_name);
 		System.out.printf("\nGym's address: %s" ,gym_addr);
 		System.out.printf("\nGym's available programs: %s", gym_progr);
-		System.out.printf("\nGym's monthly subscription cost: %d€ ", gym_price);
+		System.out.printf("\nGym's monthly subscription cost: %d ", gym_price);
 	System.out.printf("\n\nWould you like to subscribe to %s? (Yes or No): ", gym_name);
 		
 	InsertSelection();

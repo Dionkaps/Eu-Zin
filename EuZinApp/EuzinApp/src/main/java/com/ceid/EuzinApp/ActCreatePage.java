@@ -17,7 +17,7 @@ public class ActCreatePage {
 		Scanner name = new Scanner(System.in);
         String inputName = name.nextLine();
         
-        System.out.println("\nType the calories burnt per hour doint the activity:");
+        System.out.println("\nType the calories burnt per hour doing the activity:");
 		Scanner calories = new Scanner(System.in);
         int inputCalories = calories.nextInt();
         

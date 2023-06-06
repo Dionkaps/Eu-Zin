@@ -141,11 +141,22 @@ public class EuZin
         couponCodes.add("SUMMER20");
         couponCodes.add("BOGO50");
         
+        System.out.println("\nWelcome To EuZin\n\nLogin");
+        
+        Scanner loginName = new Scanner(System.in);  
+		System.out.println("\nInsert your username");
+		String logName = loginName.nextLine();
+		
+		Scanner loginPass = new Scanner(System.in);  
+		System.out.println("\nInsert your password");
+		String logPass = loginPass.nextLine();
+        
         Scanner nameInput = new Scanner(System.in);  
-		System.out.println("Type the corresponding number for what you want to do:\n1. Anagnwsi kai aksiologisi anartisewn xristi"
-				+ "\n2. Athlisi kai ipologismos thermidwn \n3. Anazitisi kai prosthiki fagitou"
-				+ "\n4. Rantevou me diatrfologo/Aksiologisi diatrofologou \n5. Agora Epoaggelmatikou eksoplismou / Plirwmi paraggelias"
-				+ "\n6. Eggrafi se gimnastirio");
+		System.out.println("\n\nType the corresponding number for what you want to do:\n1. Forum (Anagnwsi kai aksiologisi anartisewn xristi)"
+				+ "\n2. Calories Burnt Calculator (Athlisi kai ipologismos thermidwn) \n3. Search/Add Meal (Anazitisi kai prosthiki fagitou)"
+				+ "\n4. Nutritionist Appointment/Rating (Rantevou me diatrfologo/Aksiologisi diatrofologou) \n5. Buy gym equipment/Payment (Agora Epoaggelmatikou eksoplismou / Plirwmi paraggelias)"
+				+ "\n6. "
+				+ "Gym Registration (Eggrafi se gimnastirio)");
 		int choice = nameInput.nextInt();
 		
 		if(choice==1) {
