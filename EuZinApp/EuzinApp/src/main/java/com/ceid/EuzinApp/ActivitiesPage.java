@@ -10,7 +10,7 @@ public class ActivitiesPage {
 		int counter = 0;
 		//Print the activities
 		 for (Activities activity1 : ActDetails) {
-		     System.out.println(counter + ". " +"Name: " + activity1.name + ", Calories per hour: " + activity1.caloriesBurnt);
+		     System.out.println(counter + ". " +"Name: " + activity1.name + ", Calories burned per hour: " + activity1.caloriesBurnt);
 		     counter++;
 		 }
 		 chooseAct(ActDetails);

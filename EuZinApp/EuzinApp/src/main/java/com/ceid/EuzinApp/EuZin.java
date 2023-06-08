@@ -8,12 +8,6 @@ import java.util.Scanner;
 import java.util.concurrent.ExecutionException;
 
 import org.json.simple.parser.ParseException;
-
-import services.CaloriesBurnedApi;
-import services.FirebaseInit;
-import services.NutritionApi;
-import services.ReadPostData;
-
 /**
  * Hello world!
  *

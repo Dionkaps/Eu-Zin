@@ -7,7 +7,7 @@ public class DailyListsPage {
 
 	public static void showLists(ArrayList<FoodList> foodList) {
 		int counter = 1;
-		System.out.println("\n~~~DailyMeals List~~~\n");
+		System.out.println("\n~~~Today's Meals List~~~\n");
 		for (FoodList food : foodList) {
 		    String name = food.name;
 		    double calories = food.calories;
@@ -26,7 +26,7 @@ public class DailyListsPage {
 		}
 		User user = EuZin.testUser;
 		
-		System.out.println("\nSo far you have consumed:");
+		System.out.println("\n~~Daily Summary~~	\nSo far you have consumed:");
 		System.out.println("\nCalories (kcal): " + user.totCalories + "\nCarbs (g): " + user.totCarbs + "\nFat (g): " + user.totFat + "\nProtein (g): " + user.totProtein + " " );
 	}
 	
