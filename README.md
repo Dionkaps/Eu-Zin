@@ -5,7 +5,7 @@ Welcome to Eu-Zin, a university project developed in Java. Eu-Zin is an applicat
 ## Key Features:
 
 ### 1. Calorie Tracking 📊
-Effortlessly monitor and track your daily calorie intake. Eu-Zin provides a user-friendly interface to log and manage the food consumed, giving you insights into your nutritional habits.
+Effortlessly monitor and track your daily calorie intake. Eu-Zin provides an interface to log and manage the food consumed, giving you insights into your nutritional habits.
 
 ### 2. Dietitian Appointments 📅
 Schedule appointments with dietitians directly through the app. Eu-Zin streamlines the process of seeking professional guidance on your dietary choices.
